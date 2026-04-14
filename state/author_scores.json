@@ -1,4 +1,23 @@
 {
   "_comment": "作者累计评分记录",
-  "scores": {}
+  "scores": {
+    "LangChain": {
+      "total": 7,
+      "count": 4,
+      "author": "",
+      "source": "LangChain"
+    },
+    "NNg": {
+      "total": 2,
+      "count": 1,
+      "author": "",
+      "source": "NNg"
+    },
+    "UX Collective": {
+      "total": 8,
+      "count": 3,
+      "author": "",
+      "source": "UX Collective"
+    }
+  }
 }
