@@ -66,7 +66,7 @@ def fetch_recent_messages(token: str, chat_id: str, since_hours: int = 2) -> lis
         "https://open.feishu.cn/open-apis/im/v1/messages",
         headers={"Authorization": f"Bearer {token}"},
         params={
-            "container_id_type": "p2p",   # 私聊
+            "container_id_type": "chat",   # 群聊
             "container_id": chat_id,
             "start_time": str(since_ts),
             "page_size": 50,
@@ -165,7 +165,10 @@ def collect_commands(since_hours: int = 2) -> dict:
         return result
 
     bot_open_id = _get_bot_open_id(token)
-    messages = fetch_recent_messages(token, user_open_id, since_hours=since_hours)
+
+    # 优先用群聊 chat_id，没有则回退到私聊 open_id
+    chat_id = os.getenv("FEISHU_CHAT_ID", "").strip() or user_open_id
+    messages = fetch_recent_messages(token, chat_id, since_hours=since_hours)
 
     for msg in messages:
         # 只处理用户发给机器人的消息（排除机器人自己发的）
