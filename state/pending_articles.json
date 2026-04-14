@@ -2,57 +2,57 @@
   "date": "2026-04-14",
   "articles": {
     "1": {
-      "url": "https://blog.langchain.com/your-harness-your-memory/",
-      "title": "Your harness, your memory",
-      "source_name": "LangChain",
+      "url": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
+      "title": "Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game",
+      "source_name": "GitHub AI Blog",
       "author": "",
       "category": "ai"
     },
     "2": {
-      "url": "https://blog.langchain.com/previewing-interrupt-2026-agents-at-enterprise-scale/",
-      "title": "Previewing Interrupt 2026: Agents at Enterprise Scale",
-      "source_name": "LangChain",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/",
+      "title": "GitHub Copilot CLI for Beginners: Getting started with GitHub Copilot CLI",
+      "source_name": "GitHub AI Blog",
       "author": "",
       "category": "ai"
     },
     "3": {
-      "url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
-      "title": "Human judgment in the agent improvement loop",
-      "source_name": "LangChain",
+      "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "source_name": "Google AI Blog",
       "author": "",
       "category": "ai"
     },
     "4": {
-      "url": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
-      "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
-      "source_name": "LangChain",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+      "title": "Bringing people together at AI for the Economy Forum",
+      "source_name": "Google AI Blog",
       "author": "",
       "category": "ai"
     },
     "5": {
-      "url": "https://www.nngroup.com/articles/ai-agents-as-users/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "AI Agents as Users",
-      "source_name": "NNg",
+      "url": "https://uxdesign.cc/how-to-turn-your-competitors-worst-reviews-into-your-strongest-design-argument-6d216680693d?source=rss----138adf9c44c---4",
+      "title": "How to turn your competitor’s worst reviews into your strongest design argument",
+      "source_name": "UX Collective",
       "author": "",
       "category": "ux"
     },
     "6": {
-      "url": "https://uxdesign.cc/rethinking-design-critique-3d358a859304?source=rss----138adf9c44c---4",
-      "title": "Rethinking design critique",
+      "url": "https://uxdesign.cc/taste-md-e4fb75d9096f?source=rss----138adf9c44c---4",
+      "title": "taste.md",
       "source_name": "UX Collective",
       "author": "",
       "category": "ux"
     },
     "7": {
-      "url": "https://uxdesign.cc/social-media-on-trial-32be44a6434e?source=rss----138adf9c44c---4",
-      "title": "Social media on trial",
-      "source_name": "UX Collective",
+      "url": "https://www.nngroup.com/articles/handmade-designs/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Handmade Designs: The New Trust Signal",
+      "source_name": "NNg",
       "author": "",
       "category": "ux"
     },
     "8": {
-      "url": "https://uxdesign.cc/most-products-dont-need-tone-of-voice-they-need-a-point-cf37f7c752ac?source=rss----138adf9c44c---4",
-      "title": "Most products don’t need tone of voice — they need a point",
+      "url": "https://uxdesign.cc/the-old-design-workshop-is-dead-long-live-design-workshops-98f4ee58d9a7?source=rss----138adf9c44c---4",
+      "title": "The old design workshop is dead. Long live design workshops.",
       "source_name": "UX Collective",
       "author": "",
       "category": "ux"
