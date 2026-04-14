@@ -40,9 +40,10 @@ jobs:
           FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
           FEISHU_KEYWORD: ${{ secrets.FEISHU_KEYWORD }}
           SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
           CLAUDE_BASE_URL: ${{ secrets.CLAUDE_BASE_URL }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_GROUP_ID: ${{ secrets.MINIMAX_GROUP_ID }}
         run: |
           python -m bot.run
       
