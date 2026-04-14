@@ -1,5 +1,61 @@
 {
-  "_comment": "当天推送文章编号映射，用于对应打分",
-  "date": "",
-  "articles": {}
+  "date": "2026-04-14",
+  "articles": {
+    "1": {
+      "url": "https://blog.langchain.com/your-harness-your-memory/",
+      "title": "Your harness, your memory",
+      "source_name": "LangChain",
+      "author": "",
+      "category": "ai"
+    },
+    "2": {
+      "url": "https://blog.langchain.com/previewing-interrupt-2026-agents-at-enterprise-scale/",
+      "title": "Previewing Interrupt 2026: Agents at Enterprise Scale",
+      "source_name": "LangChain",
+      "author": "",
+      "category": "ai"
+    },
+    "3": {
+      "url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
+      "title": "Human judgment in the agent improvement loop",
+      "source_name": "LangChain",
+      "author": "",
+      "category": "ai"
+    },
+    "4": {
+      "url": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
+      "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+      "source_name": "LangChain",
+      "author": "",
+      "category": "ai"
+    },
+    "5": {
+      "url": "https://www.nngroup.com/articles/ai-agents-as-users/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "AI Agents as Users",
+      "source_name": "NNg",
+      "author": "",
+      "category": "ux"
+    },
+    "6": {
+      "url": "https://uxdesign.cc/rethinking-design-critique-3d358a859304?source=rss----138adf9c44c---4",
+      "title": "Rethinking design critique",
+      "source_name": "UX Collective",
+      "author": "",
+      "category": "ux"
+    },
+    "7": {
+      "url": "https://uxdesign.cc/social-media-on-trial-32be44a6434e?source=rss----138adf9c44c---4",
+      "title": "Social media on trial",
+      "source_name": "UX Collective",
+      "author": "",
+      "category": "ux"
+    },
+    "8": {
+      "url": "https://uxdesign.cc/most-products-dont-need-tone-of-voice-they-need-a-point-cf37f7c752ac?source=rss----138adf9c44c---4",
+      "title": "Most products don’t need tone of voice — they need a point",
+      "source_name": "UX Collective",
+      "author": "",
+      "category": "ux"
+    }
+  }
 }
