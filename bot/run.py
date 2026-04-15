@@ -205,7 +205,7 @@ def main() -> int:
             "url": item.url,
             "source_name": item.source_name,
             "category": item.category,
-            "author": "",
+            "author": item.author,
         })
 
     # 注册到 pending（供打分回收对应）
