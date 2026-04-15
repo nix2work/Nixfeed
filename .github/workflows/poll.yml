@@ -2,8 +2,8 @@ name: Poll Feishu Commands
 
 on:
   schedule:
-    # 每小时整点运行（UTC）
-    - cron: "0 * * * *"
+    # 每6小时运行（UTC）
+    - cron: "0 */6 * * *"
   workflow_dispatch:  # 手动触发，方便测试
 
 jobs:
