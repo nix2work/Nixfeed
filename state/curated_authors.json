@@ -1,4 +1,35 @@
 {
   "_comment": "高质量 UX 作者列表，通过飞书打分或手动订阅维护",
-  "authors": []
+  "authors": [
+    {
+      "username": "melkoh",
+      "rss_url": "https://medium.com/feed/@melkoh",
+      "reason": "手动订阅"
+    },
+    {
+      "username": "fabriziaa",
+      "rss_url": "https://medium.com/feed/@fabriziaa",
+      "reason": "手动订阅"
+    },
+    {
+      "username": "Pedro_Bretas",
+      "rss_url": "https://medium.com/feed/@Pedro_Bretas",
+      "reason": "手动订阅"
+    },
+    {
+      "username": "alevzvs",
+      "rss_url": "https://medium.com/feed/@alevzvs",
+      "reason": "手动订阅"
+    },
+    {
+      "username": "mohitphogat",
+      "rss_url": "https://medium.com/feed/@mohitphogat",
+      "reason": "手动订阅"
+    },
+    {
+      "username": "joe.njenga",
+      "rss_url": "https://medium.com/feed/@joe.njenga",
+      "reason": "手动订阅"
+    }
+  ]
 }
