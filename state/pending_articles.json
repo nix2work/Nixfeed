@@ -2,59 +2,59 @@
   "date": "2026-04-15",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/waypoint-1-5",
-      "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
-      "source_name": "Hugging Face",
-      "author": "",
+      "url": "https://blog.replit.com/pm-guide-using-ai-to-build-prototypes",
+      "title": "A Product Manager's guide to using AI to build working prototypes",
+      "source_name": "Replit Blog",
+      "author": "Replit",
       "category": "ai"
     },
     "2": {
-      "url": "https://blog.replit.com/product-managers-ship-faster-with-replit",
-      "title": "How product managers ship faster using Replit's agentic workflows",
-      "source_name": "Replit Blog",
-      "author": "",
+      "url": "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/",
+      "title": "Run multiple agents at once with /fleet in Copilot CLI",
+      "source_name": "GitHub AI Blog",
+      "author": "Matt Nigh",
       "category": "ai"
     },
     "3": {
-      "url": "https://blog.replit.com/best-ai-tools-for-product-managers",
-      "title": "The Best AI Tools for Product Managers in 2026",
-      "source_name": "Replit Blog",
-      "author": "",
+      "url": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+      "title": "Agent-driven development in Copilot Applied Science",
+      "source_name": "GitHub AI Blog",
+      "author": "Tyler McGoffin",
       "category": "ai"
     },
     "4": {
-      "url": "https://blog.replit.com/cut-design-delays-with-vibe-coding",
-      "title": "Why smart PMs are using vibe coding to cut design delays",
-      "source_name": "Replit Blog",
-      "author": "",
+      "url": "https://blog.langchain.com/deep-agents-v0-5/",
+      "title": "Deep Agents v0.5",
+      "source_name": "LangChain",
+      "author": "Chester Curme",
       "category": "ai"
     },
     "5": {
-      "url": "https://medium.com/@mohitphogat/ui-trends-that-are-actually-happening-and-worth-paying-attention-to-4c632440ba8b?source=rss-47c0ef432ec8------2",
-      "title": "UI Trends That Are Actually Happening (and Worth Paying Attention To)",
-      "source_name": "@mohitphogat",
-      "author": "",
+      "url": "https://medium.com/@joe.njenga/how-claude-code-built-my-first-claude-managed-agent-from-scratch-980fb6ac4872?source=rss-15bfc6bce2c9------2",
+      "title": "Claude Code Managed Agents: I Built My First Agent From Scratch",
+      "source_name": "@joe.njenga",
+      "author": "Joe Njenga",
       "category": "ux"
     },
     "6": {
-      "url": "https://medium.com/@joe.njenga/6-claude-code-free-repos-i-wish-i-found-earlier-that-you-dont-know-exist-22f12c8434cf?source=rss-15bfc6bce2c9------2",
-      "title": "6 Claude Code FREE Repos I Wish I Found Earlier (That You Don’t Know Exist)",
+      "url": "https://medium.com/ai-software-engineer/claude-mythos-preview-is-here-i-reviewed-the-system-card-heres-breakdown-351bf4445c9d?source=rss-15bfc6bce2c9------2",
+      "title": "Claude Mythos Preview Is Here (I Reviewed The System Card: Here’s The Breakdown)",
       "source_name": "@joe.njenga",
-      "author": "",
+      "author": "Joe Njenga",
       "category": "ux"
     },
     "7": {
-      "url": "https://medium.com/@joe.njenga/i-tested-claude-code-team-onboarding-and-it-fixes-team-setup-chaos-1111b15f2f18?source=rss-15bfc6bce2c9------2",
-      "title": "I Tested Claude Code /team-onboarding ( And It Fixes Team Setup Chaos)",
+      "url": "https://medium.com/@joe.njenga/i-just-tested-new-claude-code-routines-that-kill-your-boring-backlogs-4b0811b6f7a8?source=rss-15bfc6bce2c9------2",
+      "title": "I Just Tested (New) Claude Code Routines (That Kill Your Boring Backlogs)",
       "source_name": "@joe.njenga",
-      "author": "",
+      "author": "Joe Njenga",
       "category": "ux"
     },
     "8": {
-      "url": "https://medium.com/ai-software-engineer/minimax-cli-is-here-i-tested-it-and-its-not-another-claude-code-clone-b9e6ec6c0c09?source=rss-15bfc6bce2c9------2",
-      "title": "MiniMax CLI is Here — I Tested It (And It’s Not Another Claude Code Clone)",
+      "url": "https://medium.com/ai-software-engineer/anthropic-just-made-cheap-models-think-like-opus-claude-advisor-tool-is-wild-07b26351a527?source=rss-15bfc6bce2c9------2",
+      "title": "Anthropic Just Made Cheap Models Think Like Opus (Claude Advisor Tool Is Wild)",
       "source_name": "@joe.njenga",
-      "author": "",
+      "author": "Joe Njenga",
       "category": "ux"
     }
   }
