@@ -2,59 +2,59 @@
   "date": "2026-04-15",
   "articles": {
     "1": {
-      "url": "https://blog.replit.com/pm-guide-using-ai-to-build-prototypes",
-      "title": "A Product Manager's guide to using AI to build working prototypes",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
+      "category": "ai"
+    },
+    "2": {
+      "url": "https://blog.replit.com/viral-videos-replit-animation",
+      "title": "Making scroll-stopping videos with Replit Animation",
       "source_name": "Replit Blog",
       "author": "Replit",
       "category": "ai"
     },
-    "2": {
-      "url": "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/",
-      "title": "Run multiple agents at once with /fleet in Copilot CLI",
-      "source_name": "GitHub AI Blog",
-      "author": "Matt Nigh",
-      "category": "ai"
-    },
     "3": {
-      "url": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
-      "title": "Agent-driven development in Copilot Applied Science",
-      "source_name": "GitHub AI Blog",
-      "author": "Tyler McGoffin",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "source_name": "Google AI Blog",
+      "author": "Max Gubin",
       "category": "ai"
     },
     "4": {
-      "url": "https://blog.langchain.com/deep-agents-v0-5/",
-      "title": "Deep Agents v0.5",
-      "source_name": "LangChain",
-      "author": "Chester Curme",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
+      "title": "Build a personal organization command center with GitHub Copilot CLI",
+      "source_name": "GitHub AI Blog",
+      "author": "Cassidy Williams",
       "category": "ai"
     },
     "5": {
-      "url": "https://medium.com/@joe.njenga/how-claude-code-built-my-first-claude-managed-agent-from-scratch-980fb6ac4872?source=rss-15bfc6bce2c9------2",
-      "title": "Claude Code Managed Agents: I Built My First Agent From Scratch",
+      "url": "https://medium.com/ai-software-engineer/anthropic-just-redesigned-claude-code-and-it-feels-like-a-new-tool-8f0979a62f03?source=rss-15bfc6bce2c9------2",
+      "title": "Anthropic Just Redesigned Claude Code (And It Feels Like a New Tool)",
       "source_name": "@joe.njenga",
       "author": "Joe Njenga",
       "category": "ux"
     },
     "6": {
-      "url": "https://medium.com/ai-software-engineer/claude-mythos-preview-is-here-i-reviewed-the-system-card-heres-breakdown-351bf4445c9d?source=rss-15bfc6bce2c9------2",
-      "title": "Claude Mythos Preview Is Here (I Reviewed The System Card: Here’s The Breakdown)",
+      "url": "https://medium.com/@joe.njenga/i-tried-glm-5-1-on-claude-code-and-discovered-long-horizon-agentic-coding-9fbe3dcc237a?source=rss-15bfc6bce2c9------2",
+      "title": "I Tried GLM-5.1 on Claude Code (And Discovered Long-Horizon Agentic Coding )",
       "source_name": "@joe.njenga",
       "author": "Joe Njenga",
       "category": "ux"
     },
     "7": {
-      "url": "https://medium.com/@joe.njenga/i-just-tested-new-claude-code-routines-that-kill-your-boring-backlogs-4b0811b6f7a8?source=rss-15bfc6bce2c9------2",
-      "title": "I Just Tested (New) Claude Code Routines (That Kill Your Boring Backlogs)",
+      "url": "https://medium.com/ai-software-engineer/anthropic-launches-claude-managed-agents-that-make-agentic-ai-workflows-real-91134b6f2b56?source=rss-15bfc6bce2c9------2",
+      "title": "Anthropic Launches Claude Managed Agents (That Make Agentic AI Workflows Real)",
       "source_name": "@joe.njenga",
       "author": "Joe Njenga",
       "category": "ux"
     },
     "8": {
-      "url": "https://medium.com/ai-software-engineer/anthropic-just-made-cheap-models-think-like-opus-claude-advisor-tool-is-wild-07b26351a527?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Just Made Cheap Models Think Like Opus (Claude Advisor Tool Is Wild)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/data-models-the-shared-language-your-ai-and-team-are-both-missing-e36807c7f665?source=rss-47ae41e516d------2",
+      "title": "Data models: the shared language your AI and team are both missing",
+      "source_name": "@alevzvs",
+      "author": "‍ Alexandra Vasquez",
       "category": "ux"
     }
   }
