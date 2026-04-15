@@ -40,8 +40,8 @@ def git_commit_if_changed() -> None:
 def main() -> int:
     print("🔄 开始轮询飞书消息...\n")
 
-    # 1. 读取并解析最近 2 小时的飞书消息
-    commands = collect_commands(since_hours=2)
+    # 1. 读取并解析最近 6 小时的飞书消息
+    commands = collect_commands(since_hours=6)
 
     # 2. 处理所有指令（打分 / 订阅 / 取消）
     if any([commands["scores"], commands["subscribe"], commands["unsubscribe"]]):
