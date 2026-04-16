@@ -1,60 +1,60 @@
 {
-  "date": "2026-04-15",
+  "date": "2026-04-16",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai"
     },
     "2": {
-      "url": "https://blog.replit.com/viral-videos-replit-animation",
-      "title": "Making scroll-stopping videos with Replit Animation",
-      "source_name": "Replit Blog",
-      "author": "Replit",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+      "title": "New ways to create personalized images in the Gemini app",
+      "source_name": "Google AI Blog",
+      "author": "David Sharon",
       "category": "ai"
     },
     "3": {
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
-      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
-      "source_name": "Google AI Blog",
-      "author": "Max Gubin",
+      "url": "https://huggingface.co/blog/transformers-to-mlx",
+      "title": "The PR you would have opened yourself",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
       "category": "ai"
     },
     "4": {
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
-      "title": "Build a personal organization command center with GitHub Copilot CLI",
-      "source_name": "GitHub AI Blog",
-      "author": "Cassidy Williams",
+      "url": "https://huggingface.co/blog/Hcompany/holotab",
+      "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
       "category": "ai"
     },
     "5": {
-      "url": "https://medium.com/ai-software-engineer/anthropic-just-redesigned-claude-code-and-it-feels-like-a-new-tool-8f0979a62f03?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Just Redesigned Claude Code (And It Feels Like a New Tool)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/ai-ux-and-the-factory-model-7c38802de4a5?source=rss----138adf9c44c---4",
+      "title": "AI, UX, and the factory model",
+      "source_name": "UX Collective",
+      "author": "Zeeshan Khalid",
       "category": "ux"
     },
     "6": {
-      "url": "https://medium.com/@joe.njenga/i-tried-glm-5-1-on-claude-code-and-discovered-long-horizon-agentic-coding-9fbe3dcc237a?source=rss-15bfc6bce2c9------2",
-      "title": "I Tried GLM-5.1 on Claude Code (And Discovered Long-Horizon Agentic Coding )",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/the-trust-gap-in-healthcare-ai-isnt-about-the-ai-42b437379369?source=rss----138adf9c44c---4",
+      "title": "The trust gap in healthcare AI isn’t about the AI",
+      "source_name": "UX Collective",
+      "author": "Sibanu Bora",
       "category": "ux"
     },
     "7": {
-      "url": "https://medium.com/ai-software-engineer/anthropic-launches-claude-managed-agents-that-make-agentic-ai-workflows-real-91134b6f2b56?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Launches Claude Managed Agents (That Make Agentic AI Workflows Real)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/we-become-what-we-behold-b552cad26702?source=rss----138adf9c44c---4",
+      "title": "We become what we behold",
+      "source_name": "UX Collective",
+      "author": "Chris R Becker",
       "category": "ux"
     },
     "8": {
-      "url": "https://uxdesign.cc/data-models-the-shared-language-your-ai-and-team-are-both-missing-e36807c7f665?source=rss-47ae41e516d------2",
-      "title": "Data models: the shared language your AI and team are both missing",
-      "source_name": "@alevzvs",
-      "author": "‍ Alexandra Vasquez",
+      "url": "https://medium.com/ai-software-engineer/claude-opus-4-7-is-here-the-first-model-that-punishes-bad-prompting-70010fe53690?source=rss-15bfc6bce2c9------2",
+      "title": "Claude Opus 4.7 Is Here (The First Model That Punishes Bad Prompting)",
+      "source_name": "@joe.njenga",
+      "author": "Joe Njenga",
       "category": "ux"
     }
   }
