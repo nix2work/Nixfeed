@@ -21,22 +21,18 @@ def _extract_author(entry, url: str, source_name: str) -> str:
     4. 抓取文章页面 <meta name="author">
     5. 兜底：source_name
     """
-    # 1. Medium URL 提取
     m = re.search(r"medium\.com/@([\w-]+)/", url)
     if m:
         return f"@{m.group(1)}"
 
-    # 2. dc:creator
     dc_creator = getattr(entry, "dc_creator", "") or ""
     if dc_creator.strip():
         return dc_creator.strip()
 
-    # 3. entry.author
     author = getattr(entry, "author", "") or ""
     if author.strip():
         return author.strip()
 
-    # 4. 抓取页面 <meta name="author">
     try:
         resp = requests.get(
             url,
@@ -55,7 +51,6 @@ def _extract_author(entry, url: str, source_name: str) -> str:
     except Exception:
         pass
 
-    # 5. 兜底
     return source_name
 
 
@@ -67,7 +62,7 @@ class Item:
     category: str
     published_at: datetime
     description: str = ""
-    author: str = ""  # 作者标识，优先具体作者名，兜底用 source_name
+    author: str = ""
 
 
 def _parse_dt(entry) -> datetime:
@@ -94,7 +89,6 @@ def fetch_items(sources: Iterable[Source]) -> List[Item]:
                 elif hasattr(e, "description"):
                     description = e.description.strip()
 
-                # 提取作者（多级 fallback）
                 author = _extract_author(e, link, src.name)
 
                 items.append(
@@ -156,20 +150,123 @@ def _has_ux_expert(text: str) -> bool:
     return any(expert in t for expert in UX_EXPERTS)
 
 
-def _calculate_score(item: Item, max_age_days: int = 30,
-                     curated: set = None, blocked: set = None) -> float:
+# ── 偏好加成（新增）──────────────────────────────────────────────────────────
+
+def _keyword_preference_boost(text: str, profile: dict) -> float:
+    """
+    关键词字符串匹配，快速计算偏好加成。
+    返回值范围：0.3 ~ 1.5
+    """
+    high_signals = profile.get("high_quality_signals", [])
+    low_signals = profile.get("low_quality_signals", [])
+
+    if not high_signals and not low_signals:
+        return 1.0
+
+    text_lower = text.lower()
+    boost = 1.0
+
+    for signal in high_signals:
+        if signal["keyword"].lower() in text_lower:
+            # count 越多、weight 越高，加成越大；单信号上限 +0.3
+            increment = min(0.3, 0.1 * signal["weight"] * min(signal["count"], 3))
+            boost += increment
+
+    for signal in low_signals:
+        if signal["keyword"].lower() in text_lower:
+            decrement = min(0.3, 0.1 * signal["weight"] * min(signal["count"], 3))
+            boost -= decrement
+
+    return round(max(0.3, min(1.5, boost)), 3)
+
+
+def _ai_preference_boost(text: str, profile: dict) -> float:
+    """
+    用 MiniMax 做语义匹配，准确度更高但每次推送多一次 API 调用。
+    USE_AI_PREFERENCE=true 时启用。
+    失败时自动降级为关键词匹配，不影响正常推送。
+    """
+    from bot.ai_helper import call_minimax_api
+
+    high_signals = profile.get("high_quality_signals", [])
+    low_signals = profile.get("low_quality_signals", [])
+
+    if not high_signals and not low_signals:
+        return 1.0
+
+    high_kws = [s["keyword"] for s in high_signals]
+    low_kws = [s["keyword"] for s in low_signals]
+
+    prompt = f"""以下是一篇文章的标题和摘要：
+{text[:400]}
+
+用户的历史内容偏好：
+高质量信号（用户喜欢的内容类型）：{', '.join(high_kws) if high_kws else '无'}
+低质量信号（用户不喜欢的内容类型）：{', '.join(low_kws) if low_kws else '无'}
+
+请判断这篇文章与用户偏好的匹配程度，返回 0.3 到 1.5 之间的一个浮点数：
+- 强烈命中高质量信号 → 1.3~1.5
+- 轻微命中高质量信号 → 1.1~1.2
+- 与偏好无关 → 1.0
+- 轻微命中低质量信号 → 0.7~0.9
+- 强烈命中低质量信号 → 0.3~0.6
+
+只返回数字，不要任何解释或其他文字。"""
+
+    try:
+        result = call_minimax_api(prompt)
+        if result:
+            boost = float(result.strip())
+            return round(max(0.3, min(1.5, boost)), 3)
+    except Exception as e:
+        print(f"  ⚠️ AI 偏好匹配失败，降级为关键词匹配: {e}")
+
+    # 降级
+    return _keyword_preference_boost(text, profile)
+
+
+def get_preference_boost(item: "Item", profile: dict, use_ai: bool = False) -> float:
+    """
+    统一入口：根据开关选择关键词或 AI 匹配。
+    profile 为空时直接返回 1.0，不影响无偏好数据时的评分。
+    """
+    if not profile or (
+        not profile.get("high_quality_signals") and
+        not profile.get("low_quality_signals")
+    ):
+        return 1.0
+
+    text = f"{item.title} {item.description}"
+
+    if use_ai:
+        return _ai_preference_boost(text, profile)
+    else:
+        return _keyword_preference_boost(text, profile)
+
+
+# ── 评分系统 ──────────────────────────────────────────────────────────────────
+
+def _calculate_score(
+    item: Item,
+    max_age_days: int = 30,
+    curated: set = None,
+    blocked: set = None,
+    preference_profile: dict = None,
+    use_ai_preference: bool = False,
+) -> float:
     """
     综合评分系统
 
-    总分 = (关键词×0.3 + 时效性×0.5 + 来源权重×0.2) × 特殊加成 × 作者加成
+    总分 = (关键词×0.3 + 时效性×0.5 + 来源权重×0.2) × 特殊加成 × 作者加成 × 偏好加成
 
-    作者加成：
-      curated 作者 → ×1.5
-      普通作者     → ×1.0
-      blocked 作者 → ×0.3
+    偏好加成（新增）：
+      命中高质量信号 → 最高 ×1.5
+      无偏好数据     → ×1.0（不影响）
+      命中低质量信号 → 最低 ×0.3
     """
     curated = curated or set()
     blocked = blocked or set()
+    preference_profile = preference_profile or {}
 
     category_keywords = KEYWORDS.get(item.category, [])
     keyword_score = _score_text(item.title + " " + item.description, category_keywords)
@@ -198,11 +295,14 @@ def _calculate_score(item: Item, max_age_days: int = 30,
     else:
         author_bonus = 1.0
 
+    # 偏好加成（新增）
+    preference_bonus = get_preference_boost(item, preference_profile, use_ai=use_ai_preference)
+
     total_score = (
         keyword_score * 0.3 +
         recency_score * 0.5 +
         source_weight * 0.2
-    ) * bonus * author_bonus
+    ) * bonus * author_bonus * preference_bonus
 
     return total_score
 
