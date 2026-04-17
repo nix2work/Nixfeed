@@ -30,6 +30,16 @@
       "username": "joe.njenga",
       "rss_url": "https://medium.com/feed/@joe.njenga",
       "reason": "手动订阅"
+    },
+    {
+      "username": "David Sharon",
+      "rss_url": "https://medium.com/feed/@David Sharon",
+      "reason": "自动：均分4.0"
+    },
+    {
+      "username": "Joe Njenga",
+      "rss_url": "https://medium.com/feed/@Joe Njenga",
+      "reason": "自动：均分4.0"
     }
   ]
 }

@@ -1,4 +1,36 @@
 {
-  "high_quality_signals": [],
-  "low_quality_signals": []
+  "high_quality_signals": [
+    {
+      "keyword": "设计相关性",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "设计工作相关性",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "详细设计测试",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    }
+  ],
+  "low_quality_signals": [
+    {
+      "keyword": "相关性低",
+      "count": 2,
+      "weight": 0.6,
+      "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "缺少设计细节",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    }
+  ]
 }
