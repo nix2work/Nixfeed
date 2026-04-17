@@ -31,6 +31,8 @@ jobs:
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_USER_OPEN_ID: ${{ secrets.FEISHU_USER_OPEN_ID }}
           FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}      
+          MINIMAX_GROUP_ID: ${{ secrets.MINIMAX_GROUP_ID }}    
         run: python poll.py
 
       - name: Commit updated state
