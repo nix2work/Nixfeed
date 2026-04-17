@@ -22,13 +22,27 @@ def ensure_balanced_items(all_items, seen_fingerprints, category_limits):
     4. 每个分类必须达到目标数量
     """
     from .fetcher import _calculate_score
-    from .author_manager import load_curated, load_blocked
+    from .author_manager import load_curated, load_blocked, load_preference_profile
 
-    # 加载优质/屏蔽作者集合（统一转小写方便比对）
+    # 加载优质/屏蔽作者集合
     curated_data = load_curated()
     curated = {a["username"].lower().strip() for a in curated_data.get("authors", [])}
     blocked = {a.lower().strip() for a in load_blocked()}
     print(f"  📋 curated 作者: {len(curated)} 个，blocked 作者: {len(blocked)} 个")
+
+    # 加载偏好画像（新增）
+    preference_profile = load_preference_profile()
+    high_count = len(preference_profile.get("high_quality_signals", []))
+    low_count = len(preference_profile.get("low_quality_signals", []))
+    print(f"  🧠 偏好画像：高质量信号 {high_count} 个，低质量信号 {low_count} 个")
+
+    # AI 语义匹配开关（新增）
+    # 在 GitHub Actions 中可通过环境变量 USE_AI_PREFERENCE=true 开启
+    use_ai_preference = os.getenv("USE_AI_PREFERENCE", "false").lower() == "true"
+    if use_ai_preference:
+        print(f"  ⚡ 偏好匹配模式：AI 语义匹配")
+    else:
+        print(f"  ⚡ 偏好匹配模式：关键词匹配")
 
     result = []
     seen_fps = set(seen_fingerprints)
@@ -43,7 +57,14 @@ def ensure_balanced_items(all_items, seen_fingerprints, category_limits):
 
         scored_items = []
         for item in category_items:
-            score = _calculate_score(item, max_age_days=90, curated=curated, blocked=blocked)
+            score = _calculate_score(
+                item,
+                max_age_days=90,
+                curated=curated,
+                blocked=blocked,
+                preference_profile=preference_profile,       # 新增
+                use_ai_preference=use_ai_preference,         # 新增
+            )
             scored_items.append((score, item.published_at, item))
 
         scored_items.sort(key=lambda x: (x[0], x[1]), reverse=True)
