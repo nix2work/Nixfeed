@@ -17,17 +17,41 @@
       "count": 1,
       "weight": 0.5,
       "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "新功能介绍",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "AI新功能介绍",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
     }
   ],
   "low_quality_signals": [
     {
       "keyword": "相关性低",
-      "count": 2,
-      "weight": 0.6,
+      "count": 3,
+      "weight": 0.7,
       "last_seen": "2026-04-17"
     },
     {
       "keyword": "缺少设计细节",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "技术细节过多",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "设计细节缺失",
       "count": 1,
       "weight": 0.5,
       "last_seen": "2026-04-17"
