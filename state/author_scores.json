@@ -20,8 +20,8 @@
       "source": "UX Collective"
     },
     "Hugging Face": {
-      "total": 21,
-      "count": 9,
+      "total": 25,
+      "count": 11,
       "author": "Hugging Face",
       "source": "Hugging Face"
     },
@@ -54,6 +54,42 @@
       "count": 3,
       "author": "Joe Njenga",
       "source": "@joe.njenga"
+    },
+    "David Nachum": {
+      "total": 4,
+      "count": 1,
+      "author": "David Nachum",
+      "source": "Google AI Blog"
+    },
+    "Google AI Blog": {
+      "total": 2,
+      "count": 1,
+      "author": "Google AI Blog",
+      "source": "Google AI Blog"
+    },
+    "Adi Leviim": {
+      "total": 4,
+      "count": 1,
+      "author": "Adi Leviim",
+      "source": "UX Collective"
+    },
+    "Nicole Alexandra Michaelis": {
+      "total": 4,
+      "count": 1,
+      "author": "Nicole Alexandra Michaelis",
+      "source": "UX Collective"
+    },
+    "Kike Peña": {
+      "total": 3,
+      "count": 1,
+      "author": "Kike Peña",
+      "source": "UX Collective"
+    },
+    "Fabricio Teixeira": {
+      "total": 3,
+      "count": 1,
+      "author": "Fabricio Teixeira",
+      "source": "UX Collective"
     }
   }
 }

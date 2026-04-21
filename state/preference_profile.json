@@ -29,6 +29,24 @@
       "count": 1,
       "weight": 0.5,
       "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "介绍AI功能",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-21"
+    },
+    {
+      "keyword": "设计观点分享",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-21"
+    },
+    {
+      "keyword": "设计看法分享",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-21"
     }
   ],
   "low_quality_signals": [
@@ -55,6 +73,12 @@
       "count": 1,
       "weight": 0.5,
       "last_seen": "2026-04-17"
+    },
+    {
+      "keyword": "可迁移性缺乏",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-21"
     }
   ]
 }
