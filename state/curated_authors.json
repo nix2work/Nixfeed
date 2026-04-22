@@ -40,6 +40,11 @@
       "username": "Joe Njenga",
       "rss_url": "https://medium.com/feed/@Joe Njenga",
       "reason": "自动：均分4.0"
+    },
+    {
+      "username": "hoangthoughts",
+      "rss_url": "https://medium.com/feed/@hoangthoughts",
+      "reason": "手动订阅"
     }
   ]
 }

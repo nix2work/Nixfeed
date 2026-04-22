@@ -20,8 +20,8 @@
       "source": "UX Collective"
     },
     "Hugging Face": {
-      "total": 25,
-      "count": 11,
+      "total": 30,
+      "count": 13,
       "author": "Hugging Face",
       "source": "Hugging Face"
     },
@@ -50,8 +50,8 @@
       "source": "UX Collective"
     },
     "Joe Njenga": {
-      "total": 12,
-      "count": 3,
+      "total": 15,
+      "count": 4,
       "author": "Joe Njenga",
       "source": "@joe.njenga"
     },
@@ -89,6 +89,30 @@
       "total": 3,
       "count": 1,
       "author": "Fabricio Teixeira",
+      "source": "UX Collective"
+    },
+    "Replit": {
+      "total": 2,
+      "count": 2,
+      "author": "Replit",
+      "source": "Replit Blog"
+    },
+    "Adir SL": {
+      "total": 2,
+      "count": 1,
+      "author": "Adir SL",
+      "source": "UX Collective"
+    },
+    "Arin Bhowmick": {
+      "total": 2,
+      "count": 1,
+      "author": "Arin Bhowmick",
+      "source": "UX Collective"
+    },
+    "Hoang Nguyen": {
+      "total": 4,
+      "count": 1,
+      "author": "Hoang Nguyen",
       "source": "UX Collective"
     }
   }

@@ -79,6 +79,36 @@
       "count": 1,
       "weight": 0.5,
       "last_seen": "2026-04-21"
+    },
+    {
+      "keyword": "技术功能介绍",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-22"
+    },
+    {
+      "keyword": "和主题无关",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-22"
+    },
+    {
+      "keyword": "语言小众",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-22"
+    },
+    {
+      "keyword": "基础能力",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-22"
+    },
+    {
+      "keyword": "研究数据不实",
+      "count": 1,
+      "weight": 0.5,
+      "last_seen": "2026-04-22"
     }
   ]
 }
