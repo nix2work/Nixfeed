@@ -1,69 +1,69 @@
 {
-  "date": "2026-04-30",
+  "date": "2026-05-01",
   "articles": {
     "1": {
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/",
-      "title": "GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode",
-      "source_name": "GitHub AI Blog",
-      "author": "Kayla Cinnamon",
+      "url": "https://huggingface.co/blog/screensuite",
+      "title": "ScreenSuite - The most comprehensive evaluation suite for GUI Agents!",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
       "category": "ai",
-      "description": "<p>Learn the difference between CLI interactive v. non-interactive modes.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/\">GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>"
+      "description": ""
     },
     "2": {
-      "url": "https://huggingface.co/blog/gaia2",
-      "title": "Gaia2 and ARE: Empowering the community to study agents",
+      "url": "https://huggingface.co/blog/structured-codeagent",
+      "title": "CodeAgents + Structure: A Better Way to Execute Actions",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "3": {
-      "url": "https://huggingface.co/blog/welcome-openai-gpt-oss",
-      "title": "Welcome GPT OSS, the new open-source model family from OpenAI!",
+      "url": "https://huggingface.co/blog/python-tiny-agents",
+      "title": "Tiny Agents in Python: a MCP-powered agent in ~70 lines of code",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "4": {
-      "url": "https://huggingface.co/blog/futurebench",
-      "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
+      "url": "https://huggingface.co/blog/tiny-agents",
+      "title": "Tiny Agents: an MCP-powered agent in 50 lines of code",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "5": {
-      "url": "https://uxdesign.cc/a-genai-perplexed-by-color-theory-5416cbd3ef10?source=rss----138adf9c44c---4",
-      "title": "A GenAI perplexed by color theory",
+      "url": "https://uxdesign.cc/ai-uxr-implementation-d0e1b8a33613?source=rss----138adf9c44c---4",
+      "title": "Thoughtful AI Implementation for UXR Leaders",
       "source_name": "UX Collective",
-      "author": "Theresa-Marie Rhyne",
+      "author": "Ashlee Edwards, Ph.D.",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/a-genai-perplexed-by-color-theory-5416cbd3ef10?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/1974/1*AtXaI85VlaJttF6KBveZnw.png\" width=\"1974\" /></a></p><p class=\"medium-feed-snippet\">Using Perplexity to build an accessible perceptual uniform triad.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/a-genai-perplexed-by-color-theory-5416cbd3ef10?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
+      "description": "<h3>Thoughtful AI implementation for UXR leaders</h3><h4>Setting a vision will guide you and team to the right tools, in the right context.</h4><figure><img alt=\"This is an image of BMO, the character from Adventure Time. He is a sage green 3D gameboy, with plus, triangle, and circle buttons on front in yellow, blue, and red respectively. His hands are held up in a cheering motion.\" src=\"https://cdn-images-1.medium.com/max/1024/1*d0PRdzqeTdLo81XDjaZIoQ.png\" /><figcaption>Source: <a href=\"https://www.deviantart.com/aurora-alley/gallery\">Aurora-Alley on DeviantArt</a></figcaption></figure><p>I’m an AI skeptic.</p><p>That feels like a room-clearing and potentially career-limiting statement these days. I’ve been met with more than one uncomfortable silence from my colleagues.</p><p>I call myself an AI skeptic because I’m not bought into the idea that adding AI automatically means improvements and increased efficiency. I’m not alone; a 2025 <a href=\"https://www.pewresearch.org/science/2025/09/17/how-americans-view-ai-and-its-impact-on-people-and-society/\">Pew Research study </a>found that 50% of Americans are more concerned than excited about the increased use of AI in daily life. This same study also found that both experts and non-experts want more control over AI. However, I’m willing to bet these numbers would look different if we sampled tech workers exclusively.</p><p>I’m not against all AI tools — some of them can be useful in the right context with the right guardrails — but I’m arguing for a measured approach to their usage. In this piece, I cover the ways I’ve approached this as a research leader.</p><p>It’s no secret that collectively we’re all still in the thrall of AI (for the purposes of this piece, AI refers to tooling based in whole or in part on large-language models (LLMs) or neural networks). The great value prop of AI is increased efficiency, which then unlocks additional time for other tasks, or multiplies capacity. In UX circles, I regularly hear statements like <em>“AI is completely changing the design and research process”</em> and “<em>AI means we won’t have specialized roles anymore”</em>, reflecting the idea that the speed of AI processes will mean we can all do much more outside of our scope. AI will allow product managers to use a few prompts to quickly mock up designs. AI will allow designers to prototype quickly and push directly to code like engineers (my team has been warned that we may be “overwhelmed” with the amount of prototypes produced). Synthetic users, AI interviewers, and automated sentiment analysis will also enable designers and PMs to be researchers too. Right?</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*I91G0nPMomVktXiwQPFung.png\" /><figcaption>Synthetic Users, an AI-based tool that promises user research without users.</figcaption></figure><p>Wrong. It’s true that AI tools do make things go faster, but in this rush, we completely ignore the quality of their outputs (as <a href=\"https://medium.com/onebigthought/researchslop-420005b7faa4\">Judd Antin</a> and <a href=\"https://genpurpose.substack.com/p/research-slop\">Jess Holbrook</a> cover very thoroughly in their two pieces on ResearchSlop). These rapid prototypes produced via AI? Two screens connected by a tap, <em>when</em> they’re functional or working as intended. The designs pushed to production in record time? Stuck in code review queue where engineers will have to refactor it. As covered by Judd and Jess, AI-based research tools produce insights that lead the business down the wrong path. AI is not so much changing the design and research process as it is introducing additional review steps. It all starts to feel like “sound and fury signifying nothing.”</p><p>Unlike that classic line in Macbeth, we don’t have to resign ourselves to the futility (or inevitability) of AI. There are ways we can help our teams use AI thoughtfully.</p><p>My landscape, for context, is as follows: I lead a team of 8 researchers, including one manager, as well as UX Ops. We’ve embraced AI later than other companies, but what we lack in timeliness we make up for in fervor. Teams, including UX, are being asked to proactively identify opportunities to include AI in their workflows for efficiency. Leadership at all levels is fully bought into AI, and from my observation, rarely mention the risks or downsides.</p><p>Here’s how I’ve approached AI implementation with my team:</p><ul><li><strong>I set a north star for how I wanted AI to be integrated into our research practice.</strong> How you think about AI, like everything else, sets the tone for your team. Whether you’re fully bought into the promise of AI efficiency, or a skeptic like me, you’ll want to think about how and where you want AI to be a part of the research process. My north star is that AI should <strong>support, not replace</strong>, research quality, which I defined as craft, assessment and revision. Quality is already a <a href=\"https://medium.com/@ashlee.edwards/coaching-ux-researchers-on-rigor-88eedd5b2355\">core value </a>for my team.</li><li><strong>I defined the important skillsets for my team — and set AI guidelines to preserve them.</strong> I’m still a big believer in nurturing and growing the core skills of our profession, including good qualitative interviewing techniques, thorough, rigorous data analysis, and persuasive storytelling. I consider preserving an environment where researchers at all stages of their careers can learn and practice these skills a requirement of my job. I didn’t know all the ways in which my team was using AI until we had a dedicated conversation about it at an offsite. Admittedly, I was a little dismayed at the parts they automated away (as someone who enjoys data analysis and writing), but it signaled to me that I needed to be clearer about the ways I wanted them to use it. I created a set of guidelines, including things like:</li></ul><ol><li>Don’t use AI to develop or refine research questions.<strong> </strong>This is a critical skill for researchers in that it involves understanding the business + user context, and questions produced by AI tools are often too banal or convoluted to address the central problem.</li><li>Do use AI to clean survey data or otherwise prepare your data for analysis. Reviewing the data after any automated cleaning / preparation is critical. Document the process you used with the tool you used.</li><li>Do label places in your research brief, discussion guides, surveys, or other places where the summary is in whole or in part generated by AI with a footnote.</li></ol><p>These guidelines reflected the skills I wanted them to practice and use regularly. My advice (or directive) against using AI to develop research questions stems from my belief that it inhibits much of the learning that happens in question development. As researchers, we identify the gaps in product strategy that we can leverage to improve user experience. The shallow and banal output that AI produces can’t compare.</p><p>My note about labeling when researchers use AI is also reflective of the transparency around AI I want to encourage generally. In that same vein, I shared this with my team and asked for their thoughts and feedback — being told to <em>not</em> use AI can be just as bad as being told to use it if the ask is not contextualized or discussed openly.</p><ul><li><strong>I framed the AI usage conversation with leadership as one of risk vs. reward. </strong>As a research leader I’ve been urged to incorporate AI in all my teams workflows, without a thorough consideration of the risks and tradeoffs. Product and design leaders are eager for the team to test out the newest research tool they discovered that will generate (bad) research insights faster. I enter these conversations with an open mind and read as much as I can, and frame these conversations with the following questions:</li></ul><ol><li>Does this tool get us good output? (output that researchers or stakeholders can use for decision-making, free of hallucinations?) What happens if it gets it wrong?</li><li>Does this tool actually save us time? Or does it generate additional review time and workload for researchers?</li><li>Is this tool cost-effective? (i.e. does it save work-hours commensurate with the cost of its license or implementation?)</li></ol><p>More often than not, the answers to most or all of these questions are no, but they move the conversation from one about the merits of AI into one about the value-add to the business. In the world of bottom lines, cost is often the most important and crucially, the most persuasive factor. I also look around at new tooling and proactively document the benefits and tradeoffs. If you’re lucky enough to have an operations lead they can help you with this.</p><ul><li><strong>I regularly document what’s working and not working for each tool, and track its usage. </strong>We recently implemented a NotebookLM instance with research sources from the past 3 years that stakeholders can query. Before we did this, I pressure-tested the tool using questions I thought stakeholders were likely to ask, worked with my ops lead to tweak the prompt, and captured the before / after results. I’m also tracking folks who are using this for their product + engineering specs to see what the outputs are and how they’re informing decision-making. This way I can make sure that we’re quality outputs, getting our money’s worth, and avoiding unwanted outcomes.</li></ul><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*1zepuG3TrtGhdIPDdTg5uA.png\" /><figcaption>NotebookLM is a tool where you can add sources that you can then query over. The UXR team (and stakeholders) use this tool to get an overview of previous research in a topic area.</figcaption></figure><p>I almost always feel called at the end of my conversations about AI to declare that I am not a Luddite or completely against new technology. In my 10 years (this June!) in tech I’ve seen a lot of new trends come and go, and at least <em>tried</em> as many as I reasonably could. New technology can be exciting and help us unlock new ways of working, and many new technologies that are commonplace now seemed scary at the time (electricity, anyone?). However, our adoption and discussion of new tech lacks future-proofing if we don’t consider what we risk as part of the conversation. My perennial worry with AI and all new shiny things is that it may hinder our ability to think for ourselves, and in our quest for speed we lose <em>human</em> processing time that produces quality output. Ultimately as a research leader our goal is to support our team in their work, and AI implementation should be no exception.</p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=d0e1b8a33613\" width=\"1\" /><hr /><p><a href=\"https://uxdesign.cc/ai-uxr-implementation-d0e1b8a33613\">Thoughtful AI Implementation for UXR Leaders</a> was originally published in <a href=\"https://uxdesign.cc\">UX Collective</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>"
     },
     "6": {
-      "url": "https://medium.com/ai-software-engineer/anthropics-new-tokenizer-is-quietly-hiking-your-claude-costs-by-47-i-fixed-it-91c69ff0017b?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic’s New Tokenizer Is Quietly Hiking Your Claude Costs by 47% (I Fixed It)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://www.nngroup.com/articles/selection-criteria/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Selection Criteria: How to Pick Your Participants",
+      "source_name": "NNg",
+      "author": "Raluca Budiu, Therese Fessenden",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/anthropics-new-tokenizer-is-quietly-hiking-your-claude-costs-by-47-i-fixed-it-91c69ff0017b?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*cE0yNj5caWsruDsytkuWyA.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Everyone is angry, but let&#x2019;s be rational, or at least understand what this means.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/anthropics-new-tokenizer-is-quietly-hiking-your-claude-costs-by-47-i-fixed-it-91c69ff0017b?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "Rigorous selection criteria protect study validity. Learn how to define inclusion, exclusion, and diversity criteria to avoid costly misrecruits."
     },
     "7": {
-      "url": "https://medium.com/ai-software-engineer/how-im-using-new-warp-universal-agent-support-to-power-my-parallel-workflow-6684955b066d?source=rss-15bfc6bce2c9------2",
-      "title": "How I’m Using (New) Warp Universal Agent Support (To Power My Parallel Workflow)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://www.nngroup.com/articles/information-seeking-china/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Information Seeking in China: A Different Ecosystem, Familiar Behavior",
+      "source_name": "NNg",
+      "author": "Feifei Liu, Maria Rosala",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/how-im-using-new-warp-universal-agent-support-to-power-my-parallel-workflow-6684955b066d?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*eZX3OIDSPY_4FaBGAU5tug.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Warp just made running multiple AI agents dead simple for everyone. I&apos;m now using Claude Code and Codex in one smooth agentic workflow</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/how-im-using-new-warp-universal-agent-support-to-power-my-parallel-workflow-6684955b066d?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "Information seeking in China is driven by mobile social-media apps. But how users prompt and engage with genAI mirrors what we've seen in the West."
     },
     "8": {
-      "url": "https://medium.com/ai-software-engineer/anthropic-just-released-9-new-connectors-big-upgrade-for-creators-142a97218c3e?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Just Released 9 New Connectors (Big Upgrade for Creators)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://www.nngroup.com/news/item/job-opening-ux-design-assistant-remote-europe-1/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Job Opening: UX Design Assistant (Remote, World-Wide; Europe Based)",
+      "source_name": "NNg",
+      "author": "NNg",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/anthropic-just-released-9-new-connectors-big-upgrade-for-creators-142a97218c3e?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*qwqdHjDRpt5Mrlid8qlW_w.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Anthropic CEO has been promising for the last few months to replace software engineers by the end of the year, but for creatives, it&apos;s&#x2026;</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/anthropic-just-released-9-new-connectors-big-upgrade-for-creators-142a97218c3e?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "We’re looking for a talented UX design assistant to join the team. Applications due May 18, 2026."
     }
   }
 }
