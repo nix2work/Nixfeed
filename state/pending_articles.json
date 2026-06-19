@@ -2,68 +2,68 @@
   "date": "2026-06-19",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "source_name": "Hugging Face",
-      "author": "Hugging Face",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "title": "How we built an internal data analytics agent",
+      "source_name": "GitHub AI Blog",
+      "author": "Natalie Guevara",
       "category": "ai",
-      "description": ""
+      "description": "<p>Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/\">How we built an internal data analytics agent</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>"
     },
     "2": {
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "source_name": "Hugging Face",
-      "author": "Hugging Face",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "source_name": "Google AI Blog",
+      "author": "Mike Schaekermann",
       "category": "ai",
-      "description": ""
+      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management."
     },
     "3": {
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "source_name": "Hugging Face",
-      "author": "Hugging Face",
+      "url": "https://replit.com/blog/replit-claude",
+      "title": "Replit is now available in Claude",
+      "source_name": "Replit Blog",
+      "author": "Replit",
       "category": "ai",
-      "description": ""
+      "description": "Replit is now available directly inside Claude, making it easier than ever to go from a conversation to a fully built, shipped product - without losing context, in one seamless workflow.\n\nDesign in Claude, Build in Replit\n\nYou can now design on-brand, beautiful apps in Claude Design using natural language. Once your design is ready, send it directly to Replit to continue building, refining, and shipping your app—all through natural language and in one seamless workflow.\n\nNo copy-pasting, no context switching, no friction.\n\nDelegate Any Task to Replit"
     },
     "4": {
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "title": "GLM-5.2: Built for Long-Horizon Tasks",
-      "source_name": "Hugging Face",
-      "author": "Hugging Face",
+      "url": "https://replit.com/blog/building-my-first-slack-bot",
+      "title": "I’m not a programmer, and I used AI to build my first bot",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
       "category": "ai",
-      "description": ""
+      "description": "Before I joined Replit, I had never written a line of code.\n\nA few weeks ago, I built a Slack Bot that uses Google LLMs to provide daily channel summaries. You can fork the template or get started with 100 Days of Code.\n\nNone of this was possible without Replit. Let me explain why:\n\nGetting started with no setup"
     },
     "5": {
-      "url": "https://uxdesign.cc/one-skill-separates-the-designers-who-survive-2026-from-the-ones-who-dont-f4dec8c3ffe0?source=rss----138adf9c44c---4",
-      "title": "One skill separates the designers who survive 2026 from the ones who don’t",
+      "url": "https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3?source=rss----138adf9c44c---4",
+      "title": "Enterprise software is getting personal",
       "source_name": "UX Collective",
-      "author": "Arin Bhowmick",
+      "author": "Tiina Golub",
       "category": "ux",
-      "description": "<h4><em>AI is putting the future of UX designers in jeopardy, unless they are willing to become builders, makers, and system thinkers.</em></h4><figure><img alt=\"Illustration of a large office building positioned between two conveyor belts. On the left, three humanoid robots stand on a conveyor belt moving toward the building. On the right, three human workers stand on a conveyor belt carrying boxes away from the building. The black-and-white hand-drawn illustration symbolizes AI and automation reshaping human jobs in the workplace.\" src=\"https://cdn-images-1.medium.com/max/1024/1*F55K9uIW_m1emIx1Y4iQaw.png\" /></figure><p>Every few weeks, another business leader recites the doomsday line: AI will replace all workers.</p><p>Their confidence is proportional to the capex. A company that just committed tens of billions to data centers has strong incentives to sound sure, and the memo goes out accordingly. They boast about leaner teams and a future where most of the work runs itself.</p><p>However, the reality looks different.</p><p>AI is making the designer’s job faster and easier, but it doesn’t hold business context or understand why a strategic decision was made. At least not yet.</p><p>As AI reshapes product development, design leaders are reassessing what the role of a designer actually means. Responsibilities are converging. The lines between what a designer does and what a PM or a coder owns are blurring. In that blur, the designers who can’t articulate their value beyond their craft will lose strategic relevance.</p><p>How can designers stay relevant in a world where AI is executing tasks meant to be ‘human’?</p><h3>The hiring boomerang is here</h3><p>AI-driven layoffs are no longer surprising. Now the ones that cut roles fastest are already scrambling to rehire.</p><p>Since 2022 Klarna, the popular Swedish fintech, has been the most aggressive AI adopter in tech, pausing hiring, cutting headcount in half, and replacing customer service with an OpenAI-built agent that did the work of 850 humans, its CEO Sebastian Siemiatkowski said.</p><p>Siemiatkowski told the world AI could do every job at the company, including his. “I had to pay a lot for saying that,” <a href=\"https://time.com/charter/7378651/what-klarna-learned-from-its-ambitious-ai-rollout/\">he admitted at Charter’s Leading with AI Summit</a> in February this year. “People were very angry with me for saying that.”</p><p>Now Klarna is hiring humans back.</p><p>But this isn’t only a Klarna story. Gartner forecasts that by 2027, <a href=\"https://www.gartner.com/en/newsroom/press-releases/2026-02-03-gartner-predicts-half-of-companies-that-cut-customer-service-staff-due-to-ai-will-rehire-by-2027\">half of the companies that cut customer service staff citing AI will rehire for similar functions</a> under different titles. Also, a <a href=\"https://www.orgvue.com/news/new-research-exposes-the-complexity-of-deploying-ai-systemsin-the-workforce/\">March 2026 Orgvue study</a> found that across industries, 32% of organizations that made AI-linked redundancies have already had to rehire staff because the cost savings never materialized.</p><p>Companies fired for a capability AI doesn’t yet have declared victory and are now spending more to bring back the people they let go, often at higher salaries and with permanent damage to institutional knowledge. Researchers are calling it boomerang hiring.</p><p>The design profession is on the same wave. The question is which designers will be on the right side of it.</p><figure><img alt=\"Hand-drawn illustration featuring large 3D-style text reading “32%” surrounded by two flying boomerangs. Below, the text states: “32% of organizations that made AI-linked redundancies have already had to rehire.” The graphic visually represents the “hiring boomerang” phenomenon, where companies that laid off workers due to AI adoption later needed to bring talent back. Source: Orgvue research.\" src=\"https://cdn-images-1.medium.com/max/1024/1*BY5H0syTQBzN_igGSvlc3g.png\" /></figure><h3>How this affects designers at every level</h3><p>I want to be direct with the early career designers reading this. Some of the prototyping and production work that used to be an entry ramp into the profession is being absorbed by tools, and that change is permanent. A first design job in 2026 assumes AI literacy on top of the traditional UX fundamentals. The bar has moved, and pretending otherwise is cruel to anyone graduating this year.</p><p>What I don’t accept is the conclusion that the profession is over. The UX designer role ranks eighth among the fastest-growing jobs through 2030 in the World Economic Forum’s <a href=\"https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf\"><em>Future of Jobs Report 2025</em></a><strong>.</strong> The ceiling is rising even as the floor shifts, which is a strange and uncomfortable place for anyone trying to break in, but it’s a very different situation from a dying field.</p><p>If you’ve been designing for more than a decade, you’ve seen this happening before. The move to mobile killed a generation of web-only portfolios, and design systems ended the era of artisanal one-off screens.</p><p>Each time, the designers who repositioned ended up with more leverage than they’d had before, and the ones who kept defining themselves by their output got left behind. The AI shift is the same event, moving faster. Seniors who lived through the earlier ones already know what to do.</p><p>For design leaders, the risk is breaking the talent pipeline. Companies hollowing it out today won’t have senior designers to promote in the next decade. Leaders who play the role of a mentor to entry-level designers will need to ask themselves whether they are teaching the right skills to their mentees.</p><h3>Systems thinking: the skill every designer must develop in 2026</h3><p>Systems thinking is the must-have skill for the designers of the future.</p><p>Designers must become builders, conceptualizers, and people who can decide what’s worth building. With AI in the product, the work extends to how the system is connected to parts around it, the inflow and outflow of data throughout disparate systems, how the system behaves: when it should answer confidently and what it tells the user when it’s wrong. Most of this design work happens in long meetings with machine learning engineers and data scientists.</p><p>Senior designers who spent 10 or 15 years getting good at the visual side of the craft are finding themselves in those meetings for the first time, arguing about aspects like confidence thresholds and failure modes, and many are struggling.</p><p>The Design Executive Council’s <a href=\"https://cdn.prod.website-files.com/65b848447e935c9f1f8e6ec5/68357bcd7d7740446815dbba_The%20AI%20Shift.pdf\"><em>AI Shift report</em></a>, which interviewed senior design leaders at JPMorgan, Cigna, Sephora, Amazon, and AT&amp;T, highlights that designers today are being asked to think more like system architects and ecosystem orchestrators, building adaptable frameworks.</p><p>The future of design is no longer the creation of static interfaces. It is the orchestration of intelligent systems, human judgment, and machine behavior. The designers who thrive will not simply make product interactions usable. They will shape how humans and AI work together, end to end.</p><p><a href=\"https://www.linkedin.com/in/arinb\"><em>Arin Bhowmick</em></a><em> (</em><a href=\"https://twitter.com/arinbhowmick\"><em>@arinbhowmick</em></a><em>) is Chief Design Officer at SAP, based in San Francisco, California. The above article is personal and does not necessarily represent SAP’s positions, strategies or opinions.</em></p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=f4dec8c3ffe0\" width=\"1\" /><hr /><p><a href=\"https://uxdesign.cc/one-skill-separates-the-designers-who-survive-2026-from-the-ones-who-dont-f4dec8c3ffe0\">One skill separates the designers who survive 2026 from the ones who don’t</a> was originally published in <a href=\"https://uxdesign.cc\">UX Collective</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/1536/1*0ibSOnEO8BXE2VqfysWaQg.png\" width=\"1536\" /></a></p><p class=\"medium-feed-snippet\">Three design trends reshaping the user experience of enterprise software as we know it.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
     },
     "6": {
-      "url": "https://uxdesign.cc/we-used-to-know-that-it-was-a-person-who-wrote-it-a321c970266f?source=rss----138adf9c44c---4",
-      "title": "We used to know that it was a person who wrote it",
-      "source_name": "UX Collective",
-      "author": "Wira Indra Kusuma",
+      "url": "https://www.nngroup.com/articles/diary-study-incentives/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Incentive Structures for Diary Studies",
+      "source_name": "NNg",
+      "author": "Maria Rosala",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/we-used-to-know-that-it-was-a-person-who-wrote-it-a321c970266f?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*M6n7OOjpGJx0eNtnOlqKgQ.jpeg\" width=\"3072\" /></a></p><p class=\"medium-feed-snippet\">Reading used to come with a guarantee that a person was on the other end. We spent it down, and now you check everything.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/we-used-to-know-that-it-was-a-person-who-wrote-it-a321c970266f?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
+      "description": "A mindful incentive structure can keep diary study participants engaged and responding, without overloading you with low-quality responses."
     },
     "7": {
-      "url": "https://uxdesign.cc/your-strategic-guide-to-winning-design-awards-7afee3876ce4?source=rss----138adf9c44c---4",
-      "title": "Your strategic guide to winning design awards",
-      "source_name": "UX Collective",
-      "author": "Zeeshan Khalid",
+      "url": "https://www.nngroup.com/articles/vibe-architects/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Vibe Architects: Agentic Vibe Coders",
+      "source_name": "NNg",
+      "author": "Kate Moran, Sarah Gibbons",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/your-strategic-guide-to-winning-design-awards-7afee3876ce4?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/1400/0*3-YkmgC5ZGo80wYn.jpeg\" width=\"1400\" /></a></p><p class=\"medium-feed-snippet\">A roadmap to transform recognition into rocket fuel for your career and company.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/your-strategic-guide-to-winning-design-awards-7afee3876ce4?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
+      "description": "Nondevelopers are building complex agentic AI systems on intuition developed through many hours of experimentation, YouTube videos, and Reddit threads."
     },
     "8": {
-      "url": "https://www.nngroup.com/articles/research-recommendations-roadmap/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "How to Get Research Recommendations on the Roadmap",
+      "url": "https://www.nngroup.com/articles/after-design-critique/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Closing the Loop: What to Do After a Design Critique Ends",
       "source_name": "NNg",
-      "author": "Laura Klein",
+      "author": "Rachel Krause",
       "category": "ux",
-      "description": "To influence the roadmap: join planning early, learn constraints, tie research to PM metrics, and give clear recommendations at the right time."
+      "description": "Most designers invest in running critiques but skip the followup. That missing step is often why feedback culture breaks down."
     }
   }
 }
