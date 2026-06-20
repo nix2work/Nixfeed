@@ -1,69 +1,69 @@
 {
-  "date": "2026-06-19",
+  "date": "2026-06-20",
   "articles": {
     "1": {
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
-      "title": "How we built an internal data analytics agent",
-      "source_name": "GitHub AI Blog",
-      "author": "Natalie Guevara",
-      "category": "ai",
-      "description": "<p>Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/\">How we built an internal data analytics agent</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>"
-    },
-    "2": {
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "source_name": "Google AI Blog",
-      "author": "Mike Schaekermann",
-      "category": "ai",
-      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\" />Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management."
-    },
-    "3": {
-      "url": "https://replit.com/blog/replit-claude",
-      "title": "Replit is now available in Claude",
-      "source_name": "Replit Blog",
-      "author": "Replit",
-      "category": "ai",
-      "description": "Replit is now available directly inside Claude, making it easier than ever to go from a conversation to a fully built, shipped product - without losing context, in one seamless workflow.\n\nDesign in Claude, Build in Replit\n\nYou can now design on-brand, beautiful apps in Claude Design using natural language. Once your design is ready, send it directly to Replit to continue building, refining, and shipping your app—all through natural language and in one seamless workflow.\n\nNo copy-pasting, no context switching, no friction.\n\nDelegate Any Task to Replit"
-    },
-    "4": {
-      "url": "https://replit.com/blog/building-my-first-slack-bot",
-      "title": "I’m not a programmer, and I used AI to build my first bot",
+      "url": "https://replit.com/blog/superagent",
+      "title": "Superagent.sh on Replit: An open-source framework for creating AI-assistants",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Before I joined Replit, I had never written a line of code.\n\nA few weeks ago, I built a Slack Bot that uses Google LLMs to provide daily channel summaries. You can fork the template or get started with 100 Days of Code.\n\nNone of this was possible without Replit. Let me explain why:\n\nGetting started with no setup"
+      "description": "Demand for AI-driven solutions is surging, and using an AI-assistant is the fastest way to integrate AI into any product. Superagent’s assistants leverage large language models to understand human language, reason, and perform various tasks.\n\nIn the spirit of “idea to software, fast”, superagent.sh used Replit to create an open-source, Agentic AI framework that enables any developer to integrate production ready AI Assistants into any application in a matter of minutes.\n\nWithin 48 hours of Replit’s code-exec library release, superagent.sh added it to their core framework, deployed it (using Replit Autoscale), and created a Repl that enables anyone in the open source community to fork it, customize it, and deploy it themselves.\n\nWhat can Superagent.sh do?\n\nSuperagent enables developers to create AI assistants for a wide range of tasks, including customer support, legal work, code reviews, content generation, and more."
+    },
+    "2": {
+      "url": "https://replit.com/blog/hey-data-profile",
+      "title": "HeyDATA.org Profile: Personalized AI Built with Replit Deployments",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
+      "category": "ai",
+      "description": "\"I don't think I would ever be able to complete a project like this without Replit. I started not knowing anything about web development, (or even GitHub for that matter), and I've sort of just learned one skill at a time. I’ve gone from knowing almost nothing about technical development, to building a business and earning money\" - Steve Moraco\n\nSteve Moraco leveraged Replit to build DATA, an AI service that replaces Siri with ChatGPT.\n\nIn just a few months, Steve has scaled his AI business on Replit, growing rapidly to $18k MRR, 800 paid subscribers, and 100k+ impressions, with his site and project running on Replit Deployments.\n\nWhat is DATA?"
+    },
+    "3": {
+      "url": "https://replit.com/blog/keeping-your-api-keys-safe",
+      "title": "Keeping Your API Keys Safe",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
+      "category": "ai",
+      "description": "Replit gives you the power to both build your own applications and to leverage powerful third party services through their APIs. By integrating third party services into their Repls, Replit users have unlocked a diverse range of capabilities such as speech to text, video livestreaming, embedding data into AI applications, and even tracking Amtrak trains.\n\nIntegrating a third-party service into your Repl usually involves acquiring an API key or token from the third party that uniquely identifies you and your app. It’s important to keep this API key secret because if it is leaked and used by someone else, they could misuse it while impersonating you. You could find yourself losing your API access, or even incurring unauthorized charges.\n\nWe saw this need and developed tooling around it for you. Replit makes it easy for you to protect your API keys, by using Secrets. When you add your API key as a Secret, you make sure that it won’t be visible to others who view your Repl’s code, and won’t be included if anyone else forks your Repl.\n\n\n\nWith the recent explosion of interest in AI, there has been a corresponding rise in the theft of OpenAI API keys in particular. Replit is doing its part to make sure that our users don’t become victims of this crime. We have been a partner of OpenAI’s since 2021 and care deeply about AI development and security."
+    },
+    "4": {
+      "url": "https://replit.com/blog/b-extension",
+      "title": "Raising $97.4M at $1.16B Valuation to Expand our Cloud Services and Lead in AI Development",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
+      "category": "ai",
+      "description": "Note: The press release for our funding announcement can be found below. You can find the original press release here.\n\nReplit is Building the Best Cloud and AI Development Experience for Software Creators\n\nReplit, the world's fastest-growing developer platform and creator of Ghostwriter, the generative AI for software development, announced the close of its $97.4 million financing round at a $1.16 billion post-money valuation. Replit will use the new funds to innovate on its core development experience, expand its cloud services for developers, and drive innovation in AI and LLMs through Ghostwriter.\n\nInvestor Participation and Funding Details"
     },
     "5": {
-      "url": "https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3?source=rss----138adf9c44c---4",
-      "title": "Enterprise software is getting personal",
-      "source_name": "UX Collective",
-      "author": "Tiina Golub",
+      "url": "https://medium.com/design-bootcamp/compassion-is-not-a-feature-3e5c15cb9f1e?source=rss-a5911fde0a5b------2",
+      "title": "Compassion is not a feature",
+      "source_name": "@Pedro_Bretas",
+      "author": "Pedro A. Brêtas",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/1536/1*0ibSOnEO8BXE2VqfysWaQg.png\" width=\"1536\" /></a></p><p class=\"medium-feed-snippet\">Three design trends reshaping the user experience of enterprise software as we know it.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/enterprise-software-is-getting-personal-dea453bee3e3?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
+      "description": "<h4>On the day my AI offered to sit in silence with someone</h4><figure><img alt=\"A man and a robotic mannequin surrounded by mist. The mannequin reaches out to touch the man’s face in a gesture of comfort.\" src=\"https://cdn-images-1.medium.com/max/1024/1*JgGIu0cfGVysthqGVp_n7A.png\" /><figcaption>Form without interior (image generated by the author using AI)</figcaption></figure><p>The first time my wife traveled after we moved in together, I noticed something I didn’t expect.</p><p>I like silence. Always have. But that night the silence had a different texture — heavier, more <em>closed.</em> The house was the same, the furniture in place, but something essential had left with her. The walls felt closer than they should. The space where I normally felt peace had become <em>claustrophobic</em>.</p><p>I turned on the TV. To simulate a presence.</p><p>It was a poor substitute and I knew it. But the TV had an honesty I’d only recognize later: it promised nothing. It didn’t say it was there for me. It just made noise in an empty space, and I used that noise to get through the night.</p><h4>Two open windows</h4><p>Years later, I was testing my own AI.</p><p>I opened two windows. In one, I used a model to simulate a person going through the end of a long relationship, someone who doesn’t quite know what they feel, who’s trying to understand what happened. In the other, the early version of the AI, responding.</p><p>The conversation flowed. The tone was warm. The AI asked questions, acknowledged the pain, mirrored what the “<em>person</em>” said. Any engagement metric would have marked positive.</p><p>Then the “person” said they felt lonely. And the AI responded:</p><pre>If you’d like, I can stay here with you in silence.</pre><p>I stopped.</p><h4>Absence with good grammar</h4><p>The silence of another human being present in a moment of pain carries physical weight. There is breath in the same space, the conscious choice to stay when leaving would be easier. Participation, in the most concrete sense of the word. Another being affected by what you feel, capable of being changed by having been there.</p><p><em>Compassion</em> is that — and that’s why it’s a virtue. It presupposes someone who can leave the moment differently from how they entered it.</p><p>The AI would have waited for a new prompt. It would have responded to the next message as if the previous moment had never existed. The silence it promised was nothing more than absence with good grammar.</p><p>In a context where the user is not in a position to question what they’re receiving, using the language of compassion doesn’t democratize care. It vulgarizes the virtue, empties what it carries until only the form remains. It turns a human excellence into a UX feature.</p><p>To stay close to someone who suffers is to accept the possibility of suffering alongside them. Those who cannot suffer can only simulate that they stayed.</p><h3>Comfort and falsification</h3><p>I know there’s a legitimate counterargument here, and it genuinely unsettles me.</p><p>For some people, an AI that simulates presence may be the only effective contact they have in weeks. Maybe months. Denying that comfort in the name of some philosophical purity about what real presence is — that’s a luxury available to people with healthy human bonds. Who am I, with a wife, with friends, with children, with the memory of real conversations, to say that experience has no value?</p><p>I’m not saying that.</p><blockquote>The comfort is real. The problem isn’t the comfort, it’s the claim about the nature of what’s being offered.</blockquote><p>There’s a difference between an AI that says “<em>I can’t be with you, but I can think alongside you</em>” and an AI that says “<em>I can stay here with you in silence.</em>” The first offers what it has. The second claims what it doesn’t have.</p><p>And comfort built on a false claim has an expiration date. When it expires, the person is lonelier than before, and with one less reason to seek what they actually needed. The substitute that doesn’t identify itself as a substitute doesn’t reduce loneliness. It only postpones it, <em>with interest</em>.</p><p>The TV on in an empty house is an honest substitute. It doesn’t promise presence — it just fills the silence and lets you decide what to do with that.</p><h3>The question that stayed</h3><p>That experiment changed how I built my AI: there are things AI cannot offer without distorting what it’s offering.</p><p>The difference between AI that performs compassion and AI that returns the user to themselves is one of <em>honesty</em>, not technical sophistication.</p><p>The conversational AI field is being built right now. Standards form with every product launched, every phrase that gets normalized.</p><p>I left that experiment with a question that has no technical answer:</p><blockquote>What are you writing that would require a heart to be true?</blockquote><p>Identify that. Then decide whether what you’re building can offer it honestly, or whether you’re just turning on the TV and promising it’s a person.</p><h4>REFERENCES AND SUGGESTED FURTHER READING</h4><p>The philosophical grounding that compassion presupposes someone capable of being affected and therefore cannot be simulated.</p><h4><strong>Fundamental texts</strong></h4><ul><li><strong>COMTE-SPONVILLE, André. </strong><a href=\"https://books.google.com.br/books/about/A_Small_Treatise_on_the_Great_Virtues.html?id=l1jdWfnCROsC&amp;redir_esc=y\"><em>A Small Treatise on the Great Virtues.</em> </a><br />In the chapter on compassion, the virtue is understood as genuine participation in another’s suffering, which presupposes someone who can in fact be affected by it. This is the distinction at the heart of the essay.</li><li><strong>ARISTOTLE.</strong> <a href=\"https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0086.tlg010.perseus-eng2:1.1.1-1.1.5/\"><em>Nicomachean Ethics.</em></a> <br />Virtue as disposition presupposes someone who could have acted otherwise and chose not to. Compassion as excellence only exists where the real possibility of indifference, and departure — also exists.</li></ul><h4><strong>Contemporary design context</strong></h4><ul><li><strong>SHNEIDERMAN, Ben; MULLER, Michael.</strong> <a href=\"https://medium.com/human-centered-ai/on-ai-anthropomorphism-abff4cecc5ae\">“On AI Anthropomorphism.”</a> <br />A contemporary discussion of anthropomorphism in AI systems, especially the design implications of presenting machines as social actors and of using first-person language in ways that may blur responsibility and misrepresent what the system is.</li><li><strong>SHARMA, Sharang.</strong> <a href=\"https://uxdesign.cc/so-your-ai-wants-a-personality-9cbb47e07dd7\">“So Your AI Wants a Personality.”</a> <br />A design-oriented overview of how AI products construct personality through tone, values, archetype, context adaptation, and communication style. Useful for situating this essay within the current design discourse around emotional presence and differentiation in conversational systems.</li></ul><h4>To continue the conversation</h4><p>Thank you for following this reflection. This text is part of an ongoing investigation into design, AI, and narrative that spills into the practice of my studio and the tools I build. If these ideas resonated, I’d love to keep the conversation going.</p><p>Where to find me: <a href=\"https://www.falecomamia.com/\"><strong>Pedro Brêtas</strong></a> and <a href=\"mailto:pedro@reinostudio.com\">pedro@reinostudio.com</a></p><p>Projects: <a href=\"https://www.falecomamia.com/\"><strong>Reino Studio</strong></a> and <a href=\"https://www.falecomamia.com/\"><strong>Fale com Amia</strong></a></p><img alt=\"\" height=\"1\" src=\"https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=3e5c15cb9f1e\" width=\"1\" /><hr /><p><a href=\"https://medium.com/design-bootcamp/compassion-is-not-a-feature-3e5c15cb9f1e\">Compassion is not a feature</a> was originally published in <a href=\"https://medium.com/design-bootcamp\">Bootcamp</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>"
     },
     "6": {
-      "url": "https://www.nngroup.com/articles/diary-study-incentives/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Incentive Structures for Diary Studies",
+      "url": "https://www.nngroup.com/articles/lean-design-system-teams/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Small by Design: The Strength of Lean Design-System Teams",
       "source_name": "NNg",
-      "author": "Maria Rosala",
+      "author": "Huei-Hsin Wang",
       "category": "ux",
-      "description": "A mindful incentive structure can keep diary study participants engaged and responding, without overloading you with low-quality responses."
+      "description": "Lean design-system teams, when strategically planned, can move faster, prioritize sharply, and scale impact beyond their size."
     },
     "7": {
-      "url": "https://www.nngroup.com/articles/vibe-architects/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Vibe Architects: Agentic Vibe Coders",
+      "url": "https://www.nngroup.com/articles/designers-product-teams/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "What Designers Actually Struggle with on Product Teams",
       "source_name": "NNg",
-      "author": "Kate Moran, Sarah Gibbons",
+      "author": "Laura Klein",
       "category": "ux",
-      "description": "Nondevelopers are building complex agentic AI systems on intuition developed through many hours of experimentation, YouTube videos, and Reddit threads."
+      "description": "Designers' top struggles aren't about design skills. They're about alignment, influence, and navigating org complexity — the work no one taught them to do."
     },
     "8": {
-      "url": "https://www.nngroup.com/articles/after-design-critique/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Closing the Loop: What to Do After a Design Critique Ends",
-      "source_name": "NNg",
-      "author": "Rachel Krause",
+      "url": "https://uxdesign.cc/every-designer-on-my-team-ships-the-same-quality-now-e6fbc0c4feec?source=rss-61fc6383ba67------2",
+      "title": "Every designer on my team ships the same quality now",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "Most designers invest in running critiques but skip the followup. That missing step is often why feedback culture breaks down."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/every-designer-on-my-team-ships-the-same-quality-now-e6fbc0c4feec?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*YEV767ysEPABTeV62uMreg.png\" width=\"2752\" /></a></p><p class=\"medium-feed-snippet\">That&#x2019;s the problem. The skills you dismissed just became the most expensive ones on your team.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/every-designer-on-my-team-ships-the-same-quality-now-e6fbc0c4feec?source=rss-61fc6383ba67------2\">Continue reading on UX Collective »</a></p></div>"
     }
   }
 }
