@@ -1,69 +1,69 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-20",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/sd3",
-      "title": "Diffusers welcomes Stable Diffusion 3",
+      "url": "https://huggingface.co/blog/leaderboard-hebrew",
+      "title": "Introducing the Open Leaderboard for Hebrew LLMs!",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "2": {
-      "url": "https://huggingface.co/blog/npc-gigax-cubzh",
-      "title": "Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs",
+      "url": "https://huggingface.co/blog/leaderboard-artificial-analysis",
+      "title": "Bringing the Artificial Analysis LLM Performance Leaderboard to Hugging Face",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "3": {
-      "url": "https://huggingface.co/blog/train-sentence-transformers",
-      "title": "Training and Finetuning Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/leaderboard-medicalllm",
+      "title": "The Open Medical-LLM Leaderboard: Benchmarking Large Language Models in Healthcare",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "4": {
-      "url": "https://huggingface.co/blog/leaderboard-arabic",
-      "title": "Introducing the Open Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/llama3",
+      "title": "Welcome Llama 3 - Meta's new open LLM",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "5": {
-      "url": "https://medium.com/@joe.njenga/i-tried-claude-code-history-viewer-you-can-finally-search-every-claude-session-or-chat-b7f26678a3e9?source=rss-15bfc6bce2c9------2",
-      "title": "I Tried Claude Code History Viewer (You Can Finally Search Every Claude Session or Chat)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/the-weakest-channel-1e6d68d8d562?source=rss----138adf9c44c---4",
+      "title": "The weakest channel",
+      "source_name": "UX Collective",
+      "author": "Takuma Kakehi",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@joe.njenga/i-tried-claude-code-history-viewer-you-can-finally-search-every-claude-session-or-chat-b7f26678a3e9?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*uLst0cI0ywMpWbJ4D7XnUA.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Stop wasting time searching your old Claude Code sessions, lost chats, or a feature you built and forgot.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@joe.njenga/i-tried-claude-code-history-viewer-you-can-finally-search-every-claude-session-or-chat-b7f26678a3e9?source=rss-15bfc6bce2c9------2\">Continue reading on Medium »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/the-weakest-channel-1e6d68d8d562?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/2375/1*iVMS7zk9Pl2M1ulmHwWmow.jpeg\" width=\"2375\" /></a></p><p class=\"medium-feed-snippet\">Universality isn&#x2019;t designed into things. It&#x2019;s selected by surviving constraints&#x200a;&#x2014;&#x200a;and often, people are the constraint.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/the-weakest-channel-1e6d68d8d562?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
     },
     "6": {
-      "url": "https://www.nngroup.com/articles/human-led-research-still-matters/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Don’t Outsource the Learning: Why Human-Led Research Still Matters in the Age of AI",
+      "url": "https://www.nngroup.com/articles/dropdown-list/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Does Your Form Really Need a Dropdown List?",
       "source_name": "NNg",
-      "author": "Maria Rosala",
+      "author": "Huei-Hsin Wang",
       "category": "ux",
-      "description": "Even if AI matches researcher-output quality, human-led research will remain essential — the team learning from observing users can't be outsourced."
+      "description": "Dropdown lists can be used in narrow, specific scenarios, but misuse can cause more harm than alternatives."
     },
     "7": {
-      "url": "https://medium.com/@joe.njenga/i-tried-facebooks-new-model-muse-spark-1-1-it-s-not-what-you-think-2229157942dd?source=rss-15bfc6bce2c9------2",
-      "title": "I Tried Facebook’s (New)Model Muse Spark 1.1 (It’s Not What You Think)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/the-ux-behind-screen-time-guilt-f4d4dfaca1e8?source=rss-8797adcdd8a8------2",
+      "title": "The UX behind screen time guilt",
+      "source_name": "@fabriziaa",
+      "author": "Fabrizia Ausiello",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@joe.njenga/i-tried-facebooks-new-model-muse-spark-1-1-it-s-not-what-you-think-2229157942dd?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*Eu5eqITLqFKfJ37WnwNpWQ.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Facebook now wants to help you vibe code. Meta&#x2019;s New AI model Muse Spark 1.1 claims it&#x2019;s better than Claude Opus 4.8 in scaled tool use.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@joe.njenga/i-tried-facebooks-new-model-muse-spark-1-1-it-s-not-what-you-think-2229157942dd?source=rss-15bfc6bce2c9------2\">Continue reading on Medium »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/the-ux-behind-screen-time-guilt-f4d4dfaca1e8?source=rss-8797adcdd8a8------2\"><img src=\"https://cdn-images-1.medium.com/max/1400/1*843nlliT1z0R4W-e12uLiw.png\" width=\"1400\" /></a></p><p class=\"medium-feed-snippet\">How digital wellness tools offload responsibility on users instead of fixing the core problems</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/the-ux-behind-screen-time-guilt-f4d4dfaca1e8?source=rss-8797adcdd8a8------2\">Continue reading on UX Collective »</a></p></div>"
     },
     "8": {
-      "url": "https://medium.com/ai-software-engineer/i-tried-new-vs-code-claude-multi-chat-finally-gets-parallel-955504e8c829?source=rss-15bfc6bce2c9------2",
-      "title": "I Tried (New) VS Code Claude Multi-Chat (Finally Gets Parallel)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/when-the-dark-pattern-is-a-glaring-green-checkmark-62a4637e49f7?source=rss-8797adcdd8a8------2",
+      "title": "When the dark pattern is a glaring green checkmark",
+      "source_name": "@fabriziaa",
+      "author": "Fabrizia Ausiello",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/i-tried-new-vs-code-claude-multi-chat-finally-gets-parallel-955504e8c829?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*-yT7jlg4ITiE5H1dPSD2mw.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">VS Code has just introduced multi-chat Claude sessions in the latest update, and I didn&apos;t realize I needed it.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/i-tried-new-vs-code-claude-multi-chat-finally-gets-parallel-955504e8c829?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/when-the-dark-pattern-is-a-glaring-green-checkmark-62a4637e49f7?source=rss-8797adcdd8a8------2\"><img src=\"https://cdn-images-1.medium.com/max/1400/1*_TldR6E35RvNZ5cL0RNDCw.png\" width=\"1400\" /></a></p><p class=\"medium-feed-snippet\">A case study on false affordance and the hidden costs of deceptive UI feedback.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/when-the-dark-pattern-is-a-glaring-green-checkmark-62a4637e49f7?source=rss-8797adcdd8a8------2\">Continue reading on UX Collective »</a></p></div>"
     }
   }
 }
