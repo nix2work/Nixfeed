@@ -1,69 +1,69 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-25",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/constitutional_ai",
-      "title": "Constitutional AI with Open LLMs",
+      "url": "https://huggingface.co/blog/patchtsmixer",
+      "title": "PatchTSMixer in HuggingFace",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "2": {
-      "url": "https://huggingface.co/blog/patchtst",
-      "title": "Patch Time Series Transformer in Hugging Face",
+      "url": "https://huggingface.co/blog/pref-tuning",
+      "title": "Preference Tuning LLMs with Direct Preference Optimization Methods",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "3": {
-      "url": "https://huggingface.co/blog/leaderboard-decodingtrust",
-      "title": "An Introduction to AI Secure LLM Safety Leaderboard",
+      "url": "https://huggingface.co/blog/unsloth-trl",
+      "title": "Make LLM Fine-tuning 2x faster with Unsloth and 🤗 TRL",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "4": {
-      "url": "https://huggingface.co/blog/fine-tune-w2v2-bert",
-      "title": "Fine-Tune W2V2-Bert for low-resource ASR with 🤗 Transformers",
+      "url": "https://huggingface.co/blog/2023-in-llms",
+      "title": "2023, year of open LLMs",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "5": {
-      "url": "https://medium.com/ai-software-engineer/claude-opus-5-is-here-i-just-tested-it-and-it-beats-fable-5-on-coding-863434cc823f?source=rss-15bfc6bce2c9------2",
-      "title": "Claude Opus 5 Is Here: I Just Tested It (And It Beats Fable 5 on Coding)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4?source=rss----138adf9c44c---4",
+      "title": "The aggressively mediocre fight",
+      "source_name": "UX Collective",
+      "author": "Chris R Becker",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/claude-opus-5-is-here-i-just-tested-it-and-it-beats-fable-5-on-coding-863434cc823f?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/975/1*C8zPb3dF6udzH7-MK9gIMQ.png\" width=\"975\" /></a></p><p class=\"medium-feed-snippet\">Anthropic just released Claude Opus 5 today, and I switched to it immediately on Claude Code.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/claude-opus-5-is-here-i-just-tested-it-and-it-beats-fable-5-on-coding-863434cc823f?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/2388/1*AmFyXhpWu-1nF8VVDvrZdQ.png\" width=\"2388\" /></a></p><p class=\"medium-feed-snippet\">The battle we have with AI and something we can do about it.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/the-aggressively-mediocre-fight-ed47b3f9f8f4?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
     },
     "6": {
-      "url": "https://medium.com/ai-software-engineer/anthropic-loop-engineering-guide-just-changed-how-i-use-claude-code-790b5d5c7766?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Loop Engineering Guide Just Changed How I Use Claude Code",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://uxdesign.cc/designers-your-next-user-wont-be-human-b66bdb3ada9a?source=rss-61fc6383ba67------2",
+      "title": "Designers, your next user won’t be human",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/anthropic-loop-engineering-guide-just-changed-how-i-use-claude-code-790b5d5c7766?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*LEmPJJHOeLJ-OeH82LBWGA.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Boris Cherny, the engineer who built Claude Code at Anthropic, recently said :</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/anthropic-loop-engineering-guide-just-changed-how-i-use-claude-code-790b5d5c7766?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/designers-your-next-user-wont-be-human-b66bdb3ada9a?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*SWca5_DT0_44TulnvZDCIg.png\" width=\"4480\" /></a></p><p class=\"medium-feed-snippet\">And they don&#x2019;t care about your pixel-perfect mockups.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/designers-your-next-user-wont-be-human-b66bdb3ada9a?source=rss-61fc6383ba67------2\">Continue reading on UX Collective »</a></p></div>"
     },
     "7": {
-      "url": "https://www.nngroup.com/articles/ux-context-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
-      "source_name": "NNg",
-      "author": "Tony Alicea",
+      "url": "https://medium.com/design-bootcamp/the-first-satisfying-year-of-my-career-was-the-year-i-stopped-being-the-smartest-person-on-my-team-24dd9c0bcdb9?source=rss-61fc6383ba67------2",
+      "title": "The first satisfying year of my career was the year I stopped being the smartest person on my team",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "As more interface work is AI-generated, the output of research and design shifts from documents written for humans to curated context that guides AI."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/design-bootcamp/the-first-satisfying-year-of-my-career-was-the-year-i-stopped-being-the-smartest-person-on-my-team-24dd9c0bcdb9?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/1536/1*bAasIAaYQkAjAxYHx_tUug.png\" width=\"1536\" /></a></p><p class=\"medium-feed-snippet\">It took me seven years to realize the skill that got me promoted was the same one holding my team back.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/design-bootcamp/the-first-satisfying-year-of-my-career-was-the-year-i-stopped-being-the-smartest-person-on-my-team-24dd9c0bcdb9?source=rss-61fc6383ba67------2\">Continue reading on Bootcamp »</a></p></div>"
     },
     "8": {
-      "url": "https://www.nngroup.com/articles/product-sense-definition/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "A Concrete Definition of “Product Sense” (and How to Build It)",
-      "source_name": "NNg",
-      "author": "Tanner Kohler",
+      "url": "https://uxdesign.cc/we-thought-ai-feedback-was-making-our-designers-faster-it-was-making-them-shallower-853e41b257fb?source=rss-61fc6383ba67------2",
+      "title": "We thought AI feedback was making our designers faster. It was making them shallower",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "Product sense means predicting which product decisions will succeed based on patterns learned through experimentation — and knowing when those patterns apply."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/we-thought-ai-feedback-was-making-our-designers-faster-it-was-making-them-shallower-853e41b257fb?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/1536/1*25Jf6LYr6YXRPoT-HiENlQ.png\" width=\"1536\" /></a></p><p class=\"medium-feed-snippet\">The designs shipped faster; the designers grew more slowly.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/we-thought-ai-feedback-was-making-our-designers-faster-it-was-making-them-shallower-853e41b257fb?source=rss-61fc6383ba67------2\">Continue reading on UX Collective »</a></p></div>"
     }
   }
 }
