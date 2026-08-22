@@ -1,69 +1,69 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "title": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/instruction-tuning-sd",
+      "title": "Instruction-tuning Stable Diffusion with InstructPix2Pix",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "2": {
-      "url": "https://huggingface.co/blog/sagemaker-huggingface-llm",
-      "title": "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker",
+      "url": "https://huggingface.co/blog/chatbot-amd-gpu",
+      "title": "Run a Chatgpt-like Chatbot on a Single GPU with ROCm",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "3": {
-      "url": "https://huggingface.co/blog/train-optimize-sd-intel",
-      "title": "Optimizing Stable Diffusion for Intel CPUs with NNCF and 🤗 Optimum",
+      "url": "https://huggingface.co/blog/rwkv",
+      "title": "Introducing RWKV - An RNN with the advantages of a transformer",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "4": {
-      "url": "https://huggingface.co/blog/4bit-transformers-bitsandbytes",
-      "title": "Making LLMs even more accessible with bitsandbytes, 4-bit quantization and QLoRA",
+      "url": "https://huggingface.co/blog/starcoder",
+      "title": "StarCoder: A State-of-the-Art LLM for Code",
       "source_name": "Hugging Face",
       "author": "Hugging Face",
       "category": "ai",
       "description": ""
     },
     "5": {
-      "url": "https://www.nngroup.com/articles/artificial-intelligence-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Artificial Intelligence: Glossary",
-      "source_name": "NNg",
-      "author": "Caleb Sponheim",
+      "url": "https://medium.com/write-a-catalyst/two-languages-two-brains-and-the-writing-trick-i-found-between-them-69739d18532c?source=rss-61fc6383ba67------2",
+      "title": "Two languages, two brains, and the writing trick I found between them",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "Plain-language definitions of the AI terms that come up in product and design work, from tokens and context windows to agents, evals, and prompt injection."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/write-a-catalyst/two-languages-two-brains-and-the-writing-trick-i-found-between-them-69739d18532c?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*fmqiusDd23YpXO-mv4Bg2Q.jpeg\" width=\"3024\" /></a></p><p class=\"medium-feed-snippet\">One brain cuts, the other pours tea. Together, they made me a better thinker.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/write-a-catalyst/two-languages-two-brains-and-the-writing-trick-i-found-between-them-69739d18532c?source=rss-61fc6383ba67------2\">Continue reading on Write A Catalyst »</a></p></div>"
     },
     "6": {
-      "url": "https://medium.com/ai-software-engineer/anthropic-just-launched-claude-academy-and-i-earned-my-5-badges-0e15d2ad6936?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Just Launched Claude Academy (And I Earned My 5 Badges)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
+      "url": "https://medium.com/design-bootcamp/if-i-had-to-restart-my-design-career-in-2026-i-wouldnt-start-with-figma-first-dea3138058b3?source=rss-61fc6383ba67------2",
+      "title": "If I had to restart my design career in 2026, I wouldn’t start with Figma first",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/anthropic-just-launched-claude-academy-and-i-earned-my-5-badges-0e15d2ad6936?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*yrxm80J3lKAAucdAS3wKbQ.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Anthropic has just launched Claude Academy, and I took 7 courses and passed &#x2014; have you taken your first Claude course?</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/anthropic-just-launched-claude-academy-and-i-earned-my-5-badges-0e15d2ad6936?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/design-bootcamp/if-i-had-to-restart-my-design-career-in-2026-i-wouldnt-start-with-figma-first-dea3138058b3?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*62vs0cYJpzBSZbyXLJQYlw.png\" width=\"2752\" /></a></p><p class=\"medium-feed-snippet\">The skills that got me from junior designer to Head of Product haven&#x2019;t changed in 15 years.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/design-bootcamp/if-i-had-to-restart-my-design-career-in-2026-i-wouldnt-start-with-figma-first-dea3138058b3?source=rss-61fc6383ba67------2\">Continue reading on Bootcamp »</a></p></div>"
     },
     "7": {
-      "url": "https://www.nngroup.com/articles/ai-generated-images/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "AI-Generated Images Can Perform as Well as Stock Photography",
-      "source_name": "NNg",
-      "author": "Rachel Banawa",
+      "url": "https://hoangthoughts.medium.com/ive-been-playing-chess-for-years-the-pieces-taught-me-more-than-the-game-162ffa585f77?source=rss-61fc6383ba67------2",
+      "title": "I’ve been playing chess for years. The pieces taught me more than the game",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "When users didn’t know whether an image was AI-generated, the images we tested did not create any perception penalty compared to stock photos."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://hoangthoughts.medium.com/ive-been-playing-chess-for-years-the-pieces-taught-me-more-than-the-game-162ffa585f77?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/1536/1*ooC2AzsV_zUl2hdEjIZiuA.png\" width=\"1536\" /></a></p><p class=\"medium-feed-snippet\">Most evenings, we don&#x2019;t even talk.</p><p class=\"medium-feed-link\"><a href=\"https://hoangthoughts.medium.com/ive-been-playing-chess-for-years-the-pieces-taught-me-more-than-the-game-162ffa585f77?source=rss-61fc6383ba67------2\">Continue reading on Medium »</a></p></div>"
     },
     "8": {
-      "url": "https://www.nngroup.com/news/item/people-culture-generalist-remote/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Job Opening: People & Culture Generalist (Remote, US Based)",
-      "source_name": "NNg",
-      "author": "NNg",
+      "url": "https://medium.com/design-bootcamp/learn-ai-is-the-most-correct-career-advice-in-2026-31084f017ebb?source=rss-61fc6383ba67------2",
+      "title": "“Learn AI” is the most correct career advice in 2026",
+      "source_name": "@hoangthoughts",
+      "author": "Hoang Nguyen",
       "category": "ux",
-      "description": "NN/G is hiring a People & Culture Generalist.\n\nThis is a fully remote, permanent role running the day-to-day of our People function. Three to five years of People Operations or HR generalist experience.\n\nApplications close Friday, August 28."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/design-bootcamp/learn-ai-is-the-most-correct-career-advice-in-2026-31084f017ebb?source=rss-61fc6383ba67------2\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*dVaGT9rgw7YoHyfmaY4GrA.jpeg\" width=\"6000\" /></a></p><p class=\"medium-feed-snippet\">It&#x2019;s also the most useless.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/design-bootcamp/learn-ai-is-the-most-correct-career-advice-in-2026-31084f017ebb?source=rss-61fc6383ba67------2\">Continue reading on Bootcamp »</a></p></div>"
     }
   }
 }
