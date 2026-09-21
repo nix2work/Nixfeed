@@ -1,45 +1,45 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "articles": {
     "1": {
-      "url": "https://replit.com/blog/race-to-revenue",
-      "title": "Introducing Race to Revenue to Support the New Generation of Builders",
+      "url": "https://replit.com/blog/domain-purchasing-on-replit",
+      "title": "Introducing Domain Purchasing on Replit",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "TL;DR: We're giving 20 builders Replit credits, plus an 8-week program, a live CEO Showcase, and strategic perks — with zero equity required. Applications open December 9th.   \n\nThe best businesses being built today don't all follow the same playbook.\n\nWhile venture-backed startups chase unicorn outcomes, there's a parallel universe of builders creating profitable, sustainable businesses. Micro-SaaS products serving niche markets. Bootstrapped companies solving real problems. Solo founders turning side projects into full-time revenue.\n\nThese builders don't need permission. They don't need to pitch stuffy suits. They just need the right tools, support, and community to accelerate what they're already doing.\n\nThat's why we're launching Race to Revenue.\n\nWhat is Race to Revenue?"
+      "description": "Today, we're excited to announce the launch of Domain Purchasing on Replit. With this new feature, you can now search, purchase, and configure custom domains for your apps directly within the Replit platform—eliminating the need to use external domain registrars and simplifying the process of making your apps accessible online.\n\nThese features make it easy to get started:\n\nFast Domain search: Quickly find available domains that match your project or brand name\n\nOne-click purchase: Buy domains in just a few clicks without leaving your Replit workspace\n\nInstant configuration: Automatically configure DNS settings to point to your Replit App."
     },
     "2": {
-      "url": "https://replit.com/blog/ai-integrations",
-      "title": "Build AI Apps Instantly with Replit AI Integrations",
+      "url": "https://replit.com/blog/effort-based-pricing-recap",
+      "title": "Effort-Based Pricing Recap",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Getting started with AI should feel magical. But until now, building with AI meant jumping through hoops: creating developer accounts, hunting down API keys, reading docs, and spending 10+ minutes just getting set up.\n\nThat ends today.\n\nIntroducing Replit AI Integrations\n\nReplit AI Integrations make it effortless to build AI apps right inside Replit- no setup, no API keys, no extra accounts. Just instant access to 300+ top AI models - all from one place.\n\nWe’ve done all the hard work so you can focus on what matters most: building something amazing.\n\nOne Platform. Every Model You Need."
+      "description": "On June 18th, we enabled a new pricing feature called Effort-Based Pricing for all newly signed up Replit users. After monitoring usage for two weeks, we began rolling this feature out to the remaining users last week on July 2nd. In this post, we would like to share more about the rationale for the change, what we have observed so far, address some of our users’ concerns, and share how we are continuing to improve pricing.\n\nWe are confident that the new Effort-Based pricing is the model that will best serve our users and enable more powerful AI tools to Replit members, however the transition to the new pricing model did not meet our standards for how we like to roll out major changes (we will discuss some examples of areas where we fell short). Therefore, we would like to offer $10 in free Replit credits to all Replit members who used the new pricing model as a way to show that we appreciate your feedback and your patience during this transition. This will automatically be applied to all active accounts that have used the new pricing model. There is nothing that users need to do to claim this credit.\n\nJuly 11th Incident:\n\nOne example of where we fell short in our rollout of the pricing happened on July 11th between the hours of 11:26AM PDT - 5:43PM PDT. During this time, and due to an error in cost calculation, Replit checkpoint charges were being incorrectly computed and were often much larger than they should have been. After 5:43PM the fix was rolled out to production. This impacted approximately 6% of paying users. We have performed a thorough incident analysis, ensured that all charges related to the incident are refunded/credited, and have applied additional guardrails to make sure that this doesn’t happen again.\n\nWe apologize for this July 11th incident and we thank our community members for helping us identify this issue. We were able to determine exactly who was impacted, by how much, and will automatically issue refunds or credits to any user that was impacted by this error. There is nothing that these users need to do to initiate the refund. The total cost of all impacted checkpoints will be reimbursed. Impacted users will also receive an email explaining what has happened.\n\nThese refunds will be in addition to the additional $10 in credits that we are offering to all active Replit members who have been using the new Effort-Based Pricing."
     },
     "3": {
-      "url": "https://replit.com/blog/npm-supply-chain-attack",
-      "title": "How Replit is Protecting You From the \"Shai-Hulud\" Worm",
+      "url": "https://replit.com/blog/element-editor",
+      "title": "Click, Edit, Ship — Introducing Element Editor",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Recently, a sophisticated supply chain attack compromised the popular @ctrl/tinycolor NPM package, which receives over 2 million weekly downloads, alongside hundreds of other packages in what has dubbed the \"Shai-Hulud\" attack. The attack's worm-like behavior and automated credential harvesting capabilities make it an extremely severe JavaScript supply chain attack, and the first worm of its kind affecting npm packages, exposing sensitive developer credentials across the industry.\n\nUnlike traditional malware that targets individual systems, this attack specifically compromises JavaScript packages that developers install in the projects. When the package is being installed, it executes the malicious npm postinstall lifecycle script bundle.js . The script scans the developer’s codebase for sensitive credentials like Github tokens and NPM authentication tokens. The token credentials are then used to inject the malware into more packages under the compromised developer’s account. It is creating a rapidly spreading infection across the NPM ecosystem.\n\nSince Replit controls the network environment where users’ development environments run, we were able to take immediate action to protect our users. To ensure Replit users don't have their credentials stolen, we blocked the exfiltration endpoint across all development environments. This measure prevents the compromised packages from transmitting harvested credentials to the attacker's webhook endpoint, neutralizing the threat.\n\nIn addition to this, we've upgraded our Security Scanner to detect malicious code in our users' environments. It now includes a Malicious File Detection feature: it detects known malicious files from attacks, including the the files which indicate compromise from the Shai-Hulud worm."
+      "description": "What's new and improved: \n\nDirect text editing — You can now simply click on any text element and start typing to change it directly! It works just like editing in a design tool — no coding required and no need for an agent. Before, you needed additional steps to make changes, but now it's as simple as point, click, and type. \n\nEnhanced color editing — You can now edit colors even more intuitively! Instead of navigating through menus or remembering color codes, you can make color changes with fewer clicks and see the results instantly. Type in the color name, hex or even use the eyedropper to pick a color.\n\nNew style controls — We've added even more powerful styling options:\n\nFont size adjustments\n\nFont weight modifications"
     },
     "4": {
-      "url": "https://replit.com/blog/replit-expands-google-cloud-collaboration-with-new-google-cloud-marketplace-listing",
-      "title": "Replit expands Google Cloud Collaboration with new Google Cloud Marketplace Listing",
+      "url": "https://replit.com/blog/auth",
+      "title": "Introducing Replit Auth: add secure login to your app",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "We’re excited to share that Replit is now available for purchase on Google Cloud Marketplace—marking another key milestone in our collaboration with Google.\n\nReplit’s Enterprise customers already have their apps running on Google Cloud’s world-class infrastructure, giving every app the security and scalability of Google Cloud. For example:\n\nHosting & Deployment – Replit app deployments run on Google Cloud \n\nStorage – Replit App Storage is powered by Google Cloud Storage\n\nSecurity – Apps are protected against DDoS attacks with Google Cloud Armor\n\nEncryption – Secrets are safeguarded using Google Cloud’s secure storage"
+      "description": "User login, social sign-in, and user management — all from a single prompt with Replit Auth\n\n\n\nWe’ve heard from users that user login can be one of the hardest features to add. There are many places you can get stuck: configuring external services, managing callbacks, integrating new login providers, and storing user information. Even if you get through all of that, you might be left wondering: is my app actually secure?\n\nThat’s why today we’re excited to announce Replit Auth.\n\nWith just a simple modification to your prompt, adding “use Replit Auth”, you’ll get:"
     },
     "5": {
-      "url": "https://www.nngroup.com/articles/3-agent-context-roles/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "The 3 Roles of Context for AI Agents",
-      "source_name": "NNg",
-      "author": "Tanner Kohler",
+      "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
+      "title": "AI nutrition facts",
+      "source_name": "UX Collective",
+      "author": "Hiroshi Sato",
       "category": "ux",
-      "description": "AI-agent power users curate 3 kinds of context: global (across tasks), local (task-specific), and ambient (raw streams like email)."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*P48o9v9ij66CUu_F9exaSw.png\" width=\"3200\" /></a></p><p class=\"medium-feed-snippet\">Designing an interface between writers, readers, and AI</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
     }
   }
 }
