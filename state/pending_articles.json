@@ -1,69 +1,45 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "articles": {
     "1": {
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "source_name": "GitHub AI Blog",
-      "author": "Kayla Cinnamon",
+      "url": "https://replit.com/blog/shell2",
+      "title": "Shell2: 200× faster, persisted, multiplayer-native Shells",
+      "source_name": "Replit Blog",
+      "author": "Jacky Zhao",
       "category": "ai",
-      "description": "<p>Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/\">GitHub Copilot app for Beginners: How to build custom workflows with canvases</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>"
+      "description": "What even is a terminal?\n\nBack when computers were still in their infancy, the “computer” usually was a big cabinet in the middle of a room. They typically exposed some internals via a front panel with lots of knobs and ports. Users would connect a terminal device (sometimes called a teletype or a TTY) to this front panel in order to input text and print the corresponding output.\n\nIn the 1970s when microcomputers like the Apple I started becoming more mainstream, displays and keyboards started to be integrated into the computers themselves. The rise of the graphical user interface meant that the displays and keyboards weren’t just used for the terminals themselves but for various other graphical programs too.\n\nAt some point, smart computer people thought “wait a minute, we can make a graphical program that just emulates what a terminal would have done anyways!” and thus the terminal emulator was born. In these emulators, the wires of the traditional TTY are replaced with pairs of file descriptors (an abstraction for a stream of bytes) known as the PTY (short for pseudo-TTY).\n\nImportantly for Replit, the PTY doesn’t use a serial port to connect the TTY to the computer which means we can operate a PTY remotely over a network!"
     },
     "2": {
-      "url": "https://replit.com/blog/replit-acquires-atta",
-      "title": "Putting business analysis in everyone’s hands",
+      "url": "https://replit.com/blog/introducing-replit-projects",
+      "title": "Introducing Replit Projects",
       "source_name": "Replit Blog",
-      "author": "The Replit Team",
+      "author": "Replit Blog",
       "category": "ai",
-      "description": "Today, we’re announcing that Replit has acquired Atta, bringing its approach to business analysis and high-quality, purpose-built charting into Replit.\n\n\n\nOur mission is to make useful intelligence accessible to everyone. For businesses, that means giving the people closest to a problem the ability to investigate it, explain what they find, and act on their expertise.\n\nProduct leaders understand their customers. Marketing teams understand their channels. Sales and Revenue Operations teams understand their pipeline. But answering questions with data often requires translating that knowledge into an analysis request, waiting for the results, and repeating the process for every follow-up question.\n\nWe believe business intelligence should work differently. Anyone should be able to begin with a question, explore the answer, and put what they learn to work without needing a separate set of technical tools.\n\nAtta shares that belief. Together, we’re building toward a future in which analysis is part of the work itself, not a separate destination."
+      "description": "We’re excited to announce Projects for Replit, a new way to collaborate with your team. This feature is in beta now, available to all Replit Teams customers.\n\nProjects let you maintain multiple versions of your team’s codebase and easily merge your changes together when you’re ready. Anyone on your team can “fork” (create a new copy of the code), make changes, preview what changed, and then merge those changes back into the main version with a few clicks.\n\nIf you weren’t using Replit, it might take a new teammate hours to set up their local development environment, make their changes correctly, and get their code reviewed and merged.\n\nWhy use Projects?\n\nAs a team writing software, collaboration is important. Realtime coding or pair programming is useful, but sometimes you need your own space to work. If your whole team was working on their ideas in a realtime session at the same time, one person writing some invalid code would stop everyone else from being able to test their own code. And sometimes, you might want to test out an idea without knowing for sure if it’s the right approach, and be ready to scrap it if it doesn't work out."
     },
     "3": {
-      "url": "https://replit.com/blog/zerotomvp",
-      "title": "Zero to MVP",
+      "url": "https://replit.com/blog/teams",
+      "title": "Introducing Replit Teams",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Since joining Replit, I’ve faced a harsh truth—I’ve never written a line of code.\n\n\n\nAs a UC Berkeley student studying business journalism, coding feels out of reach. I’ve had countless app ideas but would always hit the same wall: Who can build this for me?\n\n\n\nThat’s until I discovered Replit. It's a platform that brings ideas to life fast—no technical background needed. Replit bridges the gap between creative vision and actual execution.\n\nMaking Ideas Happen"
+      "description": "In today's fast-paced work environment, using real-time collaboration tools like Google Docs and Figma comes naturally to most of us. As a result, we've come to expect a lot more from our tools. Yet, when it comes to building software, we often find ourselves stuck with tools built for a different era — tools that cause our teams to feel siloed, inefficient, and less collaborative overall.\n\nIn decades past, the software development lifecycle looked like a rigid industrial process: product managers would hand off documents to designers, and designers would hand off mock-ups to engineers. Today, however, the process is much more fluid and cross-functional. Engineers contribute to design, product managers prototype, and designers code. Still, engineering tools have remained inaccessible to everyone except engineers, preventing meaningful contributions from other roles, and slowing everyone down.\n\nThis led us to wonder: What would it look like to design software collaboration tools that truly meet the changing needs of 21st-century teams?\n\nIntroducing Replit Teams\n\nGo from idea to software faster than ever before. Today, we’re announcing that Replit Teams is generally available and here to set a new standard for building software."
     },
     "4": {
-      "url": "https://replit.com/blog/spothero-innovation-through-rapid-prototyping-case-study",
-      "title": "SpotHero: Innovation through Rapid Prototyping",
+      "url": "https://replit.com/blog/skillsengine-accelerating-product-and-design-with-replit-teams",
+      "title": "SkillsEngine: Accelerating product & design with Replit Teams",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "SpotHero: Innovation through Rapid Prototyping\n\nWith Replit Teams, the SpotHero marketing team has developed internal tools, data integrations, and prototypes to seamlessly and cost-effectively integrate disparate departmental systems.\n\n“Rapid prototypes that don’t tie up product and engineering teams with unproven methods are vital for innovation. Replit enables us to cycle quickly, helping us determine which projects are worthy of greater effort from our limited internal teams and which should continue to run departmentally.”\n\nSpotHero overview\n\nSpotHero is the leading parking reservation marketplace that helps drivers find, compare, and reserve parking across 300+ cities in the U.S. and Canada. Since being founded in 2011, SpotHero has helped drivers park over 75 million cars."
+      "description": "Replit Teams transformed the SkillsEngine Product and Design team from a traditional no-code department to a prolific team that writes, shares, and ships code. In the process, the team unblocked engineering bottlenecks, improved prototype fidelity, shipped faster, and saved thousands of dollars and resources.\n\n\"I have tried every no-code tool and AI app. I have been coding for nearly 15 years now. Nothing has sparked the creative code output that Replit has for me. I have coded more in the past 12 months than the previous 10 years because it makes it so easy to get started and just try stuff. We can just focus on building ideas.” - Max Miner, Executive Director of Product and Design\n\nSkillsEngine overview\n\nSkillsEngine develops data services and tools for employers, educators, and workforce interests. Employers use SkillsEngine data to confidently assess their workforce capabilities and hiring needs. Educators use features like skill-based job profiles to plan curricula that meet current job market needs.\n\nChallenges"
     },
     "5": {
-      "url": "https://www.nngroup.com/articles/ai-functionality-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "How AI Works and How Users Think About It: Study Guide",
+      "url": "https://www.nngroup.com/articles/disclose-ai-paced/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "When Should You Disclose AI Use? The PACED Framework",
       "source_name": "NNg",
-      "author": "Tanner Kohler",
+      "author": "Taylor Dykes",
       "category": "ux",
-      "description": "Unsure where to start? Use this collection of links to our articles and videos to learn about how artificial intelligence works, and how users think about it."
-    },
-    "6": {
-      "url": "https://uxdesign.cc/is-this-the-line-for-burgers-9730dd45999d?source=rss----138adf9c44c---4",
-      "title": "Is this the line for burgers?",
-      "source_name": "UX Collective",
-      "author": "Hiroshi Sato",
-      "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/is-this-the-line-for-burgers-9730dd45999d?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*hgd51UA0duLjOnWNPBat9A.png\" width=\"5764\" /></a></p><p class=\"medium-feed-snippet\">On something already in the scene solving a problem outside its brief</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/is-this-the-line-for-burgers-9730dd45999d?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
-    },
-    "7": {
-      "url": "https://medium.com/ai-software-engineer/jev-ai-is-here-i-tested-it-and-debunked-the-new-model-hype-fec4028e04e9?source=rss-15bfc6bce2c9------2",
-      "title": "I Tested JEV AI Fully And Debunked The New Model Hype! (Step by Step)",
-      "source_name": "@joe.njenga",
-      "author": "Joe Njenga",
-      "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/ai-software-engineer/jev-ai-is-here-i-tested-it-and-debunked-the-new-model-hype-fec4028e04e9?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*y3msXw2Q2DkGam3HmAmFSA.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Late last week, Jev started a trend, and most developers either missed the point or did not understand what it was about. After testing JEV</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/ai-software-engineer/jev-ai-is-here-i-tested-it-and-debunked-the-new-model-hype-fec4028e04e9?source=rss-15bfc6bce2c9------2\">Continue reading on AI Software Engineer »</a></p></div>"
-    },
-    "8": {
-      "url": "https://mohitphogat.medium.com/why-users-trust-some-apps-instantly-and-others-never-c38dbd868b8c?source=rss-47c0ef432ec8------2",
-      "title": "Why Users Trust Some Apps Instantly (And Others Never)",
-      "source_name": "@mohitphogat",
-      "author": "Mohit Phogat",
-      "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://mohitphogat.medium.com/why-users-trust-some-apps-instantly-and-others-never-c38dbd868b8c?source=rss-47c0ef432ec8------2\"><img src=\"https://cdn-images-1.medium.com/max/1536/1*0PaJ2lVW2lX1Dqe5u7-Zig.png\" width=\"1536\" /></a></p><p class=\"medium-feed-snippet\">It&#x2019;s not the logo. It&#x2019;s not the animations. It&#x2019;s something much quieter than that.</p><p class=\"medium-feed-link\"><a href=\"https://mohitphogat.medium.com/why-users-trust-some-apps-instantly-and-others-never-c38dbd868b8c?source=rss-47c0ef432ec8------2\">Continue reading on Medium »</a></p></div>"
+      "description": "How people react to being told that AI helped create a piece of content varies with audience, context, the nature and degree of AI use."
     }
   }
 }
