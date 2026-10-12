@@ -1,69 +1,45 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "articles": {
     "1": {
-      "url": "https://replit.com/blog/lica",
-      "title": "Builder Profile: Priyaa Kalyanaraman and Purvanshi Mehta",
+      "url": "https://replit.com/blog/economic-empowerment",
+      "title": "How Replit is Empowering Global Developers - Akashdeep's Story",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Priyaa and Purvanshi are the co-founders of Lica, a content creation platform that lets anyone create videos with a single click. \n\nPriyaa is a former product manager at Microsoft, Snapchat, and Waymo who recently decided to become a full-time startup founder. At the Craft Ventures AI Hackathon in early 2023, Priyaa had a clear vision. She wanted to build a tool to make content creation and consumption fun and effortless, but couldn’t find anyone to join her team. She took this challenge in stride and participated as a solo hacker, with Replit and AI as her engineering team.\n\nIn 48 hours, Priyaa created DocuTok, an app that makes boring documents fun, and won the $10,000 grand prize. Her development approach was methodical: writing specs, breaking the app down into executable units, and using Replit AI to write the code. Her project drew significant attention and laid the foundation for what would become Lica.\n\nHowever, Priyaa wasn’t convinced that DocuTok was the exact idea she wanted to build a business around. Before going all in on a startup, she wanted to explore more of her ideas to make it easy for anyone to express themselves. She used the momentum from the hackathon to build more, going from idea to software repeatedly, deploying many apps on Replit, and getting direct feedback from users."
+      "description": "Our ambitious goal at Replit is to bring the next billion software creators online. This means looking beyond the United States, to developing countries like India and Nigeria, where much of the world’s young developer population resides. This is the story of Akashdeep, one such developer from India.\n\nA developer without a PC.\n\nA developer who earned more than his entire family through coding.\n\nA developer who hails from a farming family in rural India.\n\nAkashdeep currently studies in college in India. About a year ago, he began learning to code as a hobby and started using Replit. Like many developers faced with the high cost of PCs, Akashdeep relied on Replit Mobile to code and debug applications on his smartphone. He soon discovered Replit Bounties, a platform to hire freelance Replit software developers to code projects, and began to work on projects for others. Akashdeep earned over $1000 in the past couple of months and has a 5.0 out of 5.0 rating on Bounties, working on everything from a LinkedIn PDF parser (for a business built on Replit) to a dynamic website for an entrepreneur."
     },
     "2": {
-      "url": "https://replit.com/blog/prioritizing-employee-liquidity",
-      "title": "Prioritizing Employee Liquidity at Replit",
+      "url": "https://replit.com/blog/openv0-spotlight",
+      "title": "Openv0: The Open-Source, AI-Driven Generative UI Component Framework",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Early in my career, a mentor shared the following. \"For the next two years, you should join the highest profile startup you can, ignore everything else in your life, and work your ass off. After two years, quit, then go do it again. Do that as many times as you can so you get stock in as many startups as possible. Hopefully one of your lottery tickets hits so you can stop grinding and eventually live the life you want\".\n\nI stayed at my first company for 11 years, during which I came to question the conventional wisdom. Indexing makes sense as an investment strategy, but I'm not sure it is the best approach if you want to solve a worthwhile problem, understand something deeply, or build something of quality that lasts. For this, a better approach is to focus and compound knowledge over a long period of time. Perhaps it was confirmation bias, but as I looked around at the companies I admired, I saw a pattern. As Steve Jobs reportedly said, “if you look closely, most overnight successes take a very long time”.\n\nThere is an obvious counter to this. Most startups fail. Does long term knowledge compounding meaningfully change the odds to the point where it makes up for the risk concentration? For every celebrated long term success story, there are 1,000 obscure failures. How do you build a team that takes the long term approach to knowledge compounding, without encouraging reckless risk concentration?\n\nReplit just completed our first ever tender offer, through which current and former employees could get liquidity for their vested shares. Several Replit Employees told me in private this allowed them to pay off debt, buy a house, or look after their loved ones in a way that made a significant difference in their lives. Unlike my mentor’s advice, they were no longer worried about stacking up lottery tickets in the hope they could one day live the life they wanted. It allowed them to take a long term approach, without signing up for the delayed living plan.\n\nAs long as I am here, and market conditions allow, we will fight to get employees liquidity on a regular basis. This is a high conviction bet that long term knowledge compounds wins. We are building the team with this in mind. If this resonates with you, come work here."
+      "description": "For any web or front-end developer, component generation is a manual and arduous process involving collaboration with designers.\n\nComponents are the foundation upon which user interfaces (UI) are built, and generative AI is unlocking component creation for front-end developers, transforming a once arduous process, and aiding them in swiftly transitioning from idea to working components. By describing the interface they wish to build, developers can leverage openv0 to automatically produce Tailwind-powered UI code, using front-end frameworks like React & Svelte, and component libraries such as NextUI, Shadcn, and Lucide.\n\nThese automation capabilities significantly reduce the manual workload on designers and engineers, making the development lifecycle (idea -> software) more efficient and streamlined, making it easier for developers to bring their UI designs to life. Replit is at the forefront of this transformation with our integrated IDE, AI tools, runtime, and deployment environment.\n\nPutting the spotlight on “openv0” from @n-raidenai\n\nA Replit Builder in the community was inspired by rising interest in generative interfaces and decided to create an open-source version named openv0 - which makes use of plugins that integrate Replit ModelFarm.\n\nThe platform supports iterative development, allowing for real-time adjustments and rapid prototyping. This level of automation not only speeds up the initial component generation, but also eases the burden of component maintenance, which traditionally requires a collaborative effort between designers and engineers to uphold design systems."
     },
     "3": {
-      "url": "https://replit.com/blog/printernet",
-      "title": "Builder Profile: Jake Weber",
+      "url": "https://replit.com/blog/system-dependencies-on-replit",
+      "title": "System Dependencies on Replit",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "Jake Weber is a multidisciplinary designer, engineer, and writer who has always been drawn to invention as a kind of balance between art and real-world impact. It’s no surprise then that Jake built Printernet, a project that bridges our online lives with tactile experience by “packaging up your bookmarked articles to be read by you, in your hands, in a carefully bound print edition.”\n\nJake’s journey with Replit began in 2021 when he saw a Paul Graham post referencing Replit. Immediately, he was hooked by how easy it was to get up and running quickly.\n\nShortly after, on a long drive back to Austin, Jake reflected on how much reading he was doing online and how the experience of reading off a screen paled compared to picking up and diving into a physical book. What he needed to build was a physical RSS feed. That’s when the idea of Printernet was born.\n\nInspired by an interview with Michael Seibel about launching fast with an MVP, Jake started building Printernet in earnest. Jake first hosted Printernet on Squarespace and started printing the issues himself. Eventually, Product Hunt caught wind of the project, indicating that Jake wasn’t the only one who wanted a physical RSS feed. Today, Jake is building the next version of Printernet on Replit.\n\nJake started integrating Replit into Printernet to build automations to cut down on the time it took to manually compile and format each issue. “I was literally copying and pasting text from websites, one at a time. This process was extremely tedious and probably took 2 to 3 days to fulfill a single order. Once I began developing automations with Replit the time it took to fulfill an order went down dramatically. Now, with my Replit code, the moment an order is placed my Python Repl begins working for me.”"
+      "description": "We recently released some improvements to our Packages tool, and now we're extending that work to bring a new System Dependencies tool to Replit, powered by Nix! Replit has bet big on Nix, and we're not slowing down. It's now easier than ever to leverage Nix's power with a brand-new user interface for adding, removing, and searching system dependencies.\n\nWhat are system dependencies?\n\nSystem dependencies are native programs or libraries that can be installed globally in your Repl using Nix. These differ from libraries distributed by language-specific package management systems, which can still be managed from the Packages tool.\n\nWith the System Dependencies tool, your Repl can easily pull in tools like:\n\nffmpeg"
     },
     "4": {
-      "url": "https://replit.com/blog/startup-showcase-2023-10-27",
+      "url": "https://replit.com/blog/startup-showcase-2023-10-13",
       "title": "Showcasing Startups on Replit",
       "source_name": "Replit Blog",
       "author": "Replit Blog",
       "category": "ai",
-      "description": "The fastest way to start, ship, and share\n\nThe Replit platform isn't just a sandbox; it's a launchpad. There’s a lot to learn from startups building on Replit and how they leverage the platform to monetize and grow.\n\nWhether it’s a solo developer bootstrapping their startup on Bounties, or a startup launching their application on Replit Deployments, Replit is the best place to go from idea to software, fast.\n\nHere are a few companies building and shipping on Replit today.\n\nSweet Dreams\n\nWhen Marwan’s younger brother was diagnosed with diabetes, his family was faced with a lot of new lifestyle changes and practices to ensure his brother’s well-being. One of the most important daily tasks is tracking his blood sugar level. If you or a loved one has diabetes, you know blood sugar level is one of the most important numbers to be tracking consistently throughout the day."
+      "description": "The fastest way to start, ship, and share\n\nThe Replit platform isn't just a sandbox; it's a launchpad. There’s a lot to learn from startups building on Replit and how they leverage the platform to monetize and grow.\n\nWhether it’s a solo developer bootstrapping their startup on Bounties, or a startup launching their application on Replit Deployments, Replit is the best place to get from idea to software, fast.\n\nHere are a few companies building and shipping on Replit today.\n\nAutomateNow\n\nAutomation “experts” and agencies have become so popular that finding real experts has become difficult. AutomateNow is a website that lists and sources the best Zapier and automation experts worldwide. Whether you need an entire business process automated or your Zaps consolidated, this expert network is here to help."
     },
     "5": {
-      "url": "https://medium.com/@joe.njenga/anthropic-just-added-claude-to-google-docs-now-you-can-be-the-10x-pro-writer-8ff4d4ee1df2?source=rss-15bfc6bce2c9------2",
-      "title": "Anthropic Just Added Claude to Google Docs (Now You Can Be The 10x Pro Writer)",
+      "url": "https://medium.com/@joe.njenga/microsoft-jev-is-here-i-tested-decision-1-i-didnt-expect-this-e18373de54e9?source=rss-15bfc6bce2c9------2",
+      "title": "Microsoft JEV Is Here: I Tested Decision-1 (I Didn’t Expect This)",
       "source_name": "@joe.njenga",
       "author": "Joe Njenga",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@joe.njenga/anthropic-just-added-claude-to-google-docs-now-you-can-be-the-10x-pro-writer-8ff4d4ee1df2?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*z--RaIntENCiMXdqhpepTw.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Anthropic just added Claude AI to Google Docs, and you can draft, write, and create content and emails right in Google Docs.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@joe.njenga/anthropic-just-added-claude-to-google-docs-now-you-can-be-the-10x-pro-writer-8ff4d4ee1df2?source=rss-15bfc6bce2c9------2\">Continue reading on Medium »</a></p></div>"
-    },
-    "6": {
-      "url": "https://mohitphogat.medium.com/why-96-of-websites-still-feel-broken-for-someone-dca5e80f6bb4?source=rss-47c0ef432ec8------2",
-      "title": "Your Website Is Probably Broken for Someone (And You’d Never Know)",
-      "source_name": "@mohitphogat",
-      "author": "Mohit Phogat",
-      "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://mohitphogat.medium.com/why-96-of-websites-still-feel-broken-for-someone-dca5e80f6bb4?source=rss-47c0ef432ec8------2\"><img src=\"https://cdn-images-1.medium.com/max/1774/1*zAsS8wpTUbxhpxzynNPTuw.png\" width=\"1774\" /></a></p><p class=\"medium-feed-snippet\">95.9% of the top 1 million home pages fail at least one basic accessibility check. Here&#x2019;s how to test yours in 5 minutes.</p><p class=\"medium-feed-link\"><a href=\"https://mohitphogat.medium.com/why-96-of-websites-still-feel-broken-for-someone-dca5e80f6bb4?source=rss-47c0ef432ec8------2\">Continue reading on Medium »</a></p></div>"
-    },
-    "7": {
-      "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-      "source_name": "NNg",
-      "author": "Caleb Sponheim",
-      "category": "ux",
-      "description": "A useful AI assistant needs relevant personal context, the capability to use it, and an experience that helps users understand its limits."
-    },
-    "8": {
-      "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-      "source_name": "NNg",
-      "author": "Tanner Kohler",
-      "category": "ux",
-      "description": "Claude power users rarely edit their context files and often can’t find them. Your AI agent is only as powerful as its context library."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@joe.njenga/microsoft-jev-is-here-i-tested-decision-1-i-didnt-expect-this-e18373de54e9?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/996/1*xRYDg5MgEpDueYxLj8o2Zw.png\" width=\"996\" /></a></p><p class=\"medium-feed-snippet\">Microsoft just launched its JEV-like model, Decision-1, so I tested it to see how it ranks against JEV.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@joe.njenga/microsoft-jev-is-here-i-tested-decision-1-i-didnt-expect-this-e18373de54e9?source=rss-15bfc6bce2c9------2\">Continue reading on Medium »</a></p></div>"
     }
   }
 }
