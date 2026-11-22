@@ -1,69 +1,69 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "articles": {
     "1": {
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "source_name": "Hugging Face",
-      "author": "Hugging Face",
+      "url": "https://replit.com/blog/ai",
+      "title": "Ghostwriter AI & Complete Code Beta",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
       "category": "ai",
-      "description": ""
+      "description": "Update: Ghostwriter is out now!\n\nIn 2018 when we announced Multiplayer Mode, we said it's the most significant evolution of Replit to date. For the first time, you could share a URL with a friend, student, or coworker and get a shared text editor and runtime — no setup required. Replit Multiplayer is changing how an entire generation of programmers learn how to code and make software.\n\nToday, we're announcing Ghostwriter, which infuses state-of-the-art intelligence into nearly all IDE features. Ghostwriter sports an ML-powered pair programmer that completes your code in realtime, tools to generate, transform, and explain code, and an in-editor search utility that lets you find and import open-source code without leaving your editor (think Stackoverflow in your editor)."
     },
     "2": {
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "source_name": "Hugging Face",
-      "author": "Hugging Face",
+      "url": "https://replit.com/blog/internship-lily",
+      "title": "My internship experience at Replit.",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
       "category": "ai",
-      "description": ""
+      "description": "Hey, it’s your friendly community intern, Lily! It’s been 8 months since I became an intern at Replit, and this blog post concludes my awesome journey.\n\nHow did it all start?\n\nI have been active in the Replit community for over 2 years where I used to primarily be a front-end developer and designer. I have participated in countless hackathons and community events, posted my design projects in the community, and much more. This made me kinda famous in the community! Here is the post I wrote earlier on how I got into the Replit community. Back in 2020, after 4 months of being active, one of my friends (who was also a Replit team member back then) suggested that I apply for a design role. I, of course, really wanted to work at Replit, but I wasn't sure if I was ready. It took me more than a year to gather enough confidence to finally apply for the design role in November 2021! I also knew that Replit had eyes on me for a long time because of my contributions to the community and my performance in the hackathons.\n\nAfter a couple of weeks, I got an email from Barron Webster (Design Lead at Replit) telling me that they hadn’t forgotten about my application. However, they had never had a Design Intern before, and they were currently working on finding the right way of bringing me in. I was told they would connect with me again at the start of 2022!\n\nIn January, I got a message from Lena Vu (Community Lead) with an offer to join the Community Team at Replit. We discussed the possibilities for both Design and Community roles. I could start as a Community Intern right away, but for design, I would need to wait for the summer. I didn’t really want to wait that long, and also wanted to try something new, so, I chose to join Replit as a Community Intern, and started in January 2022!\n\nWhat happened during my internship?"
     },
     "3": {
-      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
-      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
-      "source_name": "Google AI Blog",
-      "author": "Google AI Blog",
+      "url": "https://replit.com/blog/heroku-alternatives",
+      "title": "Welcoming Heroku Users to Replit",
+      "source_name": "Replit Blog",
+      "author": "Replit Blog",
       "category": "ai",
-      "description": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp\" />Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode."
+      "description": "Last week, Heroku announced they are discontinuing their free hosting plan. We get it. Offering free hosting and compute is extremely challenging, but there are many creators globally that are unable to pay for resources. As a result, many Heroku users are moving over to Replit, and we're excited!\n\nAt Replit, we believe anyone should be able to create software, and we will continue to create pathways for users to host their projects without swiping a credit card. Not only that, but we are taking it to new levels.\n\nToday, we host 1M concurrent containers and serve 10b+/month in dynamic content from apps deployed on Replit. At this scale, we are one of the largest compute providers in the world. But we're only getting started. In the coming months, we're going to radically change our hosting offering.\n\nEarlier this year, we set super ambitious goals:\n\n10x performance and reliability\n\n3x the nines of availability"
     },
     "4": {
-      "url": "https://replit.com/blog/build-with-private-data-using-tunnels",
-      "title": "Securely connect Replit to your private network with Tunnels",
+      "url": "https://replit.com/blog/ethical-hacking-on-replit",
+      "title": "Ethical hacking on Replit",
       "source_name": "Replit Blog",
-      "author": "David Liu",
+      "author": "Replit Blog",
       "category": "ai",
-      "description": "A self-driving company needs agents that can investigate issues, prepare reports and build with company data. When that data sits on a private network, teams shouldn’t have to choose between keeping it secure and putting it to work.\n\nReplit’s enterprise controls include governance tools, separate development and production databases, and single-tenant infrastructure. Bring Your Own Cloud adds options for running Replit in your own cloud.\n\nIntroducing Tunnels\n\nA tunnel connects Replit environments to services residing in your private network, such as databases and internal APIs, by transiting through a client that IT runs inside your network. Tunnels are fully integrated with Replit’s connectors, making it easier for Replit to reach your company’s services in a secure manner.\n\nPrivate services stay private. IT chooses which services each Replit workspace can reach, without opening the whole network or allowing public inbound access. Service authentication and permissions control what Replit can read or change.\n\nTunnel traffic is encrypted. mTLS encrypts and authenticates the tunnel between the Tunnels client and Replit. IT configures each private service’s authentication and TLS separately."
+      "description": "We’re proud to say that Replit was built by and for hackers. A hacker, as defined in an early Internet glossary, is “A person who delights in having an intimate understanding of the internal workings of a system, computers and computer networks in particular.” It’s this sense of curiosity and delight that motivates our community to grow and share their skills, and to show off their creations in our Community.\n\nThe media often misuses the word “hacker” to refer only to malicious cybercriminals. While that’s not what it means, there are some “black hat” hackers who seek to spoil the experience of others. This is true on Replit and other places - such hackers use platforms to distribute spam or malware, attack third-party services, or steal resources. That’s not part of our ethos of hacking, and those activities are prohibited by our Terms of Service.\n\nWith that said, the line between ethical hacking and abuse isn’t always obvious, particularly to young hackers who are just starting out. In particular, many of our users begin their programming journey on Discord, where Replit has a large community. Hacking on bots to interact with Discord’s service is a great way to learn, but some of these bots have malicious functions that aren’t allowed to be hosted on Replit.\n\nTo make things a bit clearer, here are some examples of the most common violating repls that we come across on a daily basis, with explanations of why we don’t allow them.\n\nNuke and raid bots. Bots designed to disrupt Discord servers are one of the most common violating repls that we see. Because these are used to attack third-party services, we do not allow them.\n\nSnipers and grabbers. Scripts that steal credentials or tokens from other users are not allowed. A common example of this that we see are Discord Nitro snipers or generators. There’s no such thing as “free Nitro”... even if they claim to “generate” Nitro, these scripts are actually attempting to find and steal tokens that other users have already purchased. Other examples that fall into this category include token grabbers and IP loggers. These are commonly combined with “free Nitro” or “free Robux” scams, that are designed to fool users into giving up their login tokens or IP addresses by clicking on a malicious link or scanning a malicious QR code."
     },
     "5": {
-      "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "UX Conference March Announced (Mar 1 - Mar 4)",
-      "source_name": "NNg",
-      "author": "NNg",
+      "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+      "title": "The judge used to be the user",
+      "source_name": "UX Collective",
+      "author": "Wira Indra Kusuma",
       "category": "ux",
-      "description": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. March 1-4, 2027 (Americas) | March 205 (Asia/AU)."
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4\"><img src=\"https://cdn-images-1.medium.com/max/2600/1*oRmV3l91vV_cnIpGqcfEIA.png\" width=\"2800\" /></a></p><p class=\"medium-feed-snippet\">AI collapsed the slow middle of building models. The people who once defined correct went with it.</p><p class=\"medium-feed-link\"><a href=\"https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4\">Continue reading on UX Collective »</a></p></div>"
     },
     "6": {
-      "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "UX Conference February Announced (Feb 22 - Feb 26)",
-      "source_name": "NNg",
-      "author": "NNg",
-      "category": "ux",
-      "description": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. February 22 - February 26, 2027."
-    },
-    "7": {
-      "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "title": "Qualitative User-Research Methods: An Overview",
-      "source_name": "NNg",
-      "author": "Maria Rosala",
-      "category": "ux",
-      "description": "Want to know why users struggle or what they need? Start by choosing the right method. Here are 4 of the most popular qualitative UX-research methods."
-    },
-    "8": {
-      "url": "https://medium.com/@joe.njenga/i-tested-new-claude-code-code-mode-yes-it-cuts-tokens-but-c0390c9d46b7?source=rss-15bfc6bce2c9------2",
-      "title": "I Tested (New) Claude Code Code Mode (Yes, It Cuts Tokens But…)",
+      "url": "https://medium.com/@joe.njenga/mcp-events-are-here-just-tested-it-goodbye-old-mcp-a13efeaab733?source=rss-15bfc6bce2c9------2",
+      "title": "MCP Events Are Here! Just Tested It (Goodbye OLD MCP)",
       "source_name": "@joe.njenga",
       "author": "Joe Njenga",
       "category": "ux",
-      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@joe.njenga/i-tested-new-claude-code-code-mode-yes-it-cuts-tokens-but-c0390c9d46b7?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*aXmOgG6LMs9gua0cFZ1xkA.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">Anthropic just added Code Mode to Claude Code, and I struggled trying to make it work until I understood how to activate it.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@joe.njenga/i-tested-new-claude-code-code-mode-yes-it-cuts-tokens-but-c0390c9d46b7?source=rss-15bfc6bce2c9------2\">Continue reading on Medium »</a></p></div>"
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://medium.com/@joe.njenga/mcp-events-are-here-just-tested-it-goodbye-old-mcp-a13efeaab733?source=rss-15bfc6bce2c9------2\"><img src=\"https://cdn-images-1.medium.com/max/1280/1*nhzYAmJ_2gSgYQRREEBcNg.png\" width=\"1280\" /></a></p><p class=\"medium-feed-snippet\">If you have not tried MCP events, you are late to the party, and your coding agents are probably still asleep most of the time.</p><p class=\"medium-feed-link\"><a href=\"https://medium.com/@joe.njenga/mcp-events-are-here-just-tested-it-goodbye-old-mcp-a13efeaab733?source=rss-15bfc6bce2c9------2\">Continue reading on Medium »</a></p></div>"
+    },
+    "7": {
+      "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Can AI Generate Good Designs from Raw User Data?",
+      "source_name": "NNg",
+      "author": "Megan Chan, Rachel Banawa",
+      "category": "ux",
+      "description": "In our study, AI-generated designs were better when the AI received synthesized findings and recommendations instead of raw user comments alone."
+    },
+    "8": {
+      "url": "https://mohitphogat.medium.com/70-of-carts-get-abandoned-which-part-can-you-actually-fix-5c18f1601803?source=rss-47c0ef432ec8------2",
+      "title": "70% of Carts Get Abandoned. Which Part Can You Actually Fix?",
+      "source_name": "@mohitphogat",
+      "author": "Mohit Phogat",
+      "category": "ux",
+      "description": "<div class=\"medium-feed-item\"><p class=\"medium-feed-image\"><a href=\"https://mohitphogat.medium.com/70-of-carts-get-abandoned-which-part-can-you-actually-fix-5c18f1601803?source=rss-47c0ef432ec8------2\"><img src=\"https://cdn-images-1.medium.com/max/1672/1*EJOm4PjDoCrQgiHoQtJSjA.png\" width=\"1672\" /></a></p><p class=\"medium-feed-snippet\">A big share of shoppers leave for reasons no design can change. Here&#x2019;s how to tell them apart from the ones you can fix.</p><p class=\"medium-feed-link\"><a href=\"https://mohitphogat.medium.com/70-of-carts-get-abandoned-which-part-can-you-actually-fix-5c18f1601803?source=rss-47c0ef432ec8------2\">Continue reading on Medium »</a></p></div>"
     }
   }
 }
